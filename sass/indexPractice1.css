@@ -1,0 +1,42 @@
+.fatherOfContainer {
+  background: linear-gradient(to left, #7C573C 50%, #221518 50%);
+}
+.fatherOfContainer .container2 .header .headerLeft {
+  width: 50%;
+}
+.fatherOfContainer .container2 .header .headerLeft .headerLeftLogo {
+  margin: 10px 0;
+}
+.fatherOfContainer .container2 .header .headerLeft .headerLeftIcons {
+  margin-right: 20px;
+}
+.fatherOfContainer .container2 .header .headerLeft .headerLeftIcons .icon {
+  margin: 8px;
+}
+.fatherOfContainer .container2 .header .headerRight {
+  width: 50%;
+}
+.fatherOfContainer .container2 .header .headerRight .menuItem2 {
+  z-index: 1;
+  color: #FFF8E8;
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  font-size: 20px;
+}
+.fatherOfContainer .container2 .header .headerRight .active2 {
+  text-shadow: unset;
+}
+.fatherOfContainer .container2 .header .headerRight .active2:before {
+  content: "";
+  position: absolute;
+  width: 86px;
+  height: 75px;
+  border-radius: 0 0 30px 30px;
+  background: linear-gradient(93.99deg, rgba(223, 195, 157, 0.4) -9.94%, rgba(248, 228, 190, 0.4) 19.83%, rgba(223, 195, 157, 0.4) 50.71%, rgba(248, 228, 190, 0.4) 81.26%, rgba(248, 228, 190, 0.4) 111.66%);
+  backdrop-filter: blur(2px);
+  z-index: -1;
+  left: -22px;
+  top: -37px;
+}
+
+/*# sourceMappingURL=indexPractice1.css.map */
