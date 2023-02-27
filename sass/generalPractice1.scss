@@ -80,3 +80,19 @@ p{
 .absolute{
   position: absolute;
 }
+.heading{
+  font-family: dancingScript;
+  color: $cream;
+  font-weight: 700;
+  text-shadow: $textShadowHeading;
+  font-style: normal;
+}
+.h1{
+  font-size: 112px;
+  line-height: 134px;
+}
+.text{
+  font-family: leiko;
+  font-weight: 400;
+  font-style: normal;
+}
