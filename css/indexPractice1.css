@@ -1,32 +1,32 @@
 .fatherOfContainer {
   background: linear-gradient(to left, #7C573C 50%, #221518 50%);
 }
-.fatherOfContainer .container2 .header .headerLeft {
+.fatherOfContainer .container .header .headerLeft {
   width: 50%;
 }
-.fatherOfContainer .container2 .header .headerLeft .headerLeftLogo {
+.fatherOfContainer .container .header .headerLeft .headerLeftLogo {
   margin: 10px 0;
 }
-.fatherOfContainer .container2 .header .headerLeft .headerLeftIcons {
+.fatherOfContainer .container .header .headerLeft .headerLeftIcons {
   margin-right: 20px;
 }
-.fatherOfContainer .container2 .header .headerLeft .headerLeftIcons .icon {
+.fatherOfContainer .container .header .headerLeft .headerLeftIcons .icon {
   margin: 8px;
 }
-.fatherOfContainer .container2 .header .headerRight {
+.fatherOfContainer .container .header .headerRight {
   width: 50%;
 }
-.fatherOfContainer .container2 .header .headerRight .menuItem2 {
+.fatherOfContainer .container .header .headerRight .menuItem {
   z-index: 1;
   color: #FFF8E8;
   text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
   font-weight: 400;
   font-size: 20px;
 }
-.fatherOfContainer .container2 .header .headerRight .active2 {
+.fatherOfContainer .container .header .headerRight .active {
   text-shadow: unset;
 }
-.fatherOfContainer .container2 .header .headerRight .active2:before {
+.fatherOfContainer .container .header .headerRight .active:before {
   content: "";
   position: absolute;
   width: 86px;

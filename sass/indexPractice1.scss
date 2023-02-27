@@ -1,7 +1,7 @@
 @import "variablePractice1";
 .fatherOfContainer{
   background: linear-gradient(to left, #7C573C 50%, #221518 50%);
-  .container2{
+  .container{
     .header{
       .headerLeft{
         width: 50%;
@@ -17,14 +17,14 @@
       }
       .headerRight{
         width: 50%;
-        .menuItem2{
+        .menuItem{
           z-index: 1;
           color: $whiteFont;
-          text-shadow: $textShadow2;
+          text-shadow: $textShadow;
           font-weight: 400;
           font-size: 20px;
         }
-        .active2{
+        .active{
           text-shadow: unset;
           &:before{
             content: "";
