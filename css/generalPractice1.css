@@ -36,7 +36,7 @@ p {
   border-color: #54372B;
 }
 
-.container2 {
+.container {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -45,33 +45,33 @@ p {
 }
 
 @media (min-width: 768px) {
-  .container2 {
+  .container {
     max-width: 720px;
   }
 }
 @media (min-width: 992px) {
-  .container2 {
+  .container {
     max-width: 960px;
   }
 }
 @media (min-width: 1200px) {
-  .container2 {
+  .container {
     max-width: 1140px;
   }
 }
-.flex2 {
+.flex {
   display: flex;
 }
 
-.justify-center2 {
+.justify-center {
   justify-content: center;
 }
 
-.justify-between2 {
+.justify-between {
   justify-content: space-between;
 }
 
-.justify-evenly2 {
+.justify-evenly {
   justify-content: space-evenly;
 }
 
