@@ -1,0 +1,46 @@
+@import "variablePractice1";
+.fatherOfContainer{
+  background: linear-gradient(to left, #7C573C 50%, #221518 50%);
+  .container2{
+    .header{
+      .headerLeft{
+        width: 50%;
+        .headerLeftLogo{
+          margin: 10px 0;
+        }
+        .headerLeftIcons{
+          margin-right: 20px;
+          .icon{
+            margin: 8px;
+          }
+        }
+      }
+      .headerRight{
+        width: 50%;
+        .menuItem2{
+          z-index: 1;
+          color: $whiteFont;
+          text-shadow: $textShadow2;
+          font-weight: 400;
+          font-size: 20px;
+        }
+        .active2{
+          text-shadow: unset;
+          &:before{
+            content: "";
+            position: absolute;
+            width: 86px;
+            height: 75px;
+            border-radius: 0 0 30px 30px;
+            background: linear-gradient(93.99deg, rgba(223, 195, 157, 0.4) -9.94%, rgba(248, 228, 190, 0.4) 19.83%, rgba(223, 195, 157, 0.4) 50.71%, rgba(248, 228, 190, 0.4) 81.26%, rgba(248, 228, 190, 0.4) 111.66%);
+            backdrop-filter: blur(2px);
+            z-index: -1;
+            left: -22px;
+            top: -37px;
+          }
+        }
+      }
+    }
+
+  }
+}

@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "leiko";
+  src: url("../public/fonts/Leiko-Regular.otf") format("truetype");
+}
+@font-face {
+  font-family: "dancingScript";
+  src: url("../public/fonts/DancingScript-VariableFont_wght.ttf") format("truetype");
+}
+body {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.btn {
+  padding: 12px 36px;
+  border: 2px solid;
+  border-radius: 49px;
+  font-family: leiko;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.brownBtn {
+  background-color: rgba(247, 225, 188, 0.3);
+  color: #F7E1BC;
+  border-color: #F7E1BC;
+}
+
+.creamBtn {
+  background-color: #F7E1BC;
+  color: #221518;
+  border-color: #54372B;
+}
+
+.container2 {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container2 {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container2 {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container2 {
+    max-width: 1140px;
+  }
+}
+.flex2 {
+  display: flex;
+}
+
+.justify-center2 {
+  justify-content: center;
+}
+
+.justify-between2 {
+  justify-content: space-between;
+}
+
+.justify-evenly2 {
+  justify-content: space-evenly;
+}
+
+.alignItem-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+/*# sourceMappingURL=generalPractice1.css.map */
