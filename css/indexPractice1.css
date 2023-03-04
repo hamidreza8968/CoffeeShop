@@ -122,7 +122,7 @@
   left: 908px;
   top: -120px;
 }
-.fatherOfContainer2 .container .ourStory .textOurStory {
+.fatherOfContainer2 .container .ourStory .text {
   font-size: 18px;
   color: #FFF8E8;
   line-height: 39px;
@@ -133,7 +133,7 @@
   bottom: 89px;
   left: 535px;
   display: -webkit-box;
-  max-width: 592px;
+  max-width: 580px;
   -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
   overflow: hidden;
@@ -171,10 +171,56 @@
   flex-direction: column;
   cursor: pointer;
 }
-.fatherOfContainer2 .container .services .servicesFlex .servicesFlexBox .textServices {
+.fatherOfContainer2 .container .services .servicesFlex .servicesFlexBox .text {
   color: #F8E4BE;
   font-size: 16px;
   line-height: 20px;
+  bottom: 40px;
+}
+.fatherOfContainer2 .container .offerBox {
+  margin: 215px auto;
+  height: 378px;
+  background-color: rgba(173, 113, 74, 0.35);
+  backdrop-filter: blur(2px);
+  border-radius: 35px;
+}
+.fatherOfContainer2 .container .offerBox .h3 {
+  left: 60px;
+  top: -116px;
+}
+.fatherOfContainer2 .container .offerBox .offerTitle {
+  font-size: 32px;
+  color: #F8E4BE;
+  line-height: 70px;
+  margin-left: 60px;
+  padding-top: 35px;
+}
+.fatherOfContainer2 .container .offerBox .offerTitle .textOfSpan {
+  font-size: 48px;
+  color: #F8E4BE;
+  line-height: 105px;
+  margin-left: unset;
+}
+.fatherOfContainer2 .container .offerBox .text {
+  font-size: 18px;
+  color: #FFF8E8;
+  line-height: 39px;
+  margin-left: 60px;
+  display: -webkit-box;
+  max-width: 598px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.fatherOfContainer2 .container .offerBox .btn {
+  margin: 32px auto 32px 60px;
+  cursor: pointer;
+}
+.fatherOfContainer2 .container .offerBox .offerImage {
+  right: 42px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 /*# sourceMappingURL=indexPractice1.css.map */

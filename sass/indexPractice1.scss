@@ -145,7 +145,7 @@
         top: -120px;
       }
 
-      .textOurStory {
+      .text {
         font-size: 18px;
         color: $whiteFont;
         line-height: 39px;
@@ -156,7 +156,7 @@
         bottom: 89px;
         left: 535px;
         display: -webkit-box;
-        max-width: 592px;
+        max-width: 580px;
         -webkit-line-clamp: 6;
         -webkit-box-orient: vertical;
         overflow: hidden;
@@ -201,12 +201,58 @@
           flex-direction: column;
           cursor: pointer;
 
-          .textServices{
+          .text {
             color: $creamFont;
             font-size: 16px;
             line-height: 20px;
+            bottom: 40px;
           }
         }
+      }
+    }
+    .offerBox{
+      margin: 215px auto;
+      height: 378px;
+      background-color: $lightBrownBg;
+      backdrop-filter: blur(2px);
+      border-radius: 35px;
+      .h3{
+        left: 60px;
+        top: -116px;
+      }
+      .offerTitle{
+        font-size: 32px;
+        color: $creamFont;
+        line-height: 70px;
+        margin-left: 60px;
+        padding-top: 35px;
+        .textOfSpan{
+          font-size: 48px;
+          color: $creamFont;
+          line-height: 105px;
+          margin-left: unset;
+        }
+      }
+      .text{
+        font-size: 18px;
+        color: $whiteFont;
+        line-height: 39px;
+        margin-left: 60px;
+        display: -webkit-box;
+        max-width: 598px;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      .btn{
+        margin: 32px auto 32px 60px ;
+        cursor: pointer;
+      }
+      .offerImage{
+       right: 42px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
       }
     }
   }
