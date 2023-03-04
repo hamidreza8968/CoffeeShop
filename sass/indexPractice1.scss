@@ -52,10 +52,10 @@
     }
   }
 
-  .contentPart1 {
+  .elzaCoffee {
     margin-top: 56px;
 
-    .text{
+    .text {
       font-size: 24px;
       color: $brownFont;
       line-height: 46.85px;
@@ -89,10 +89,12 @@
         top: -9px;
         filter: drop-shadow(16.8381px -7.3209px 11.7134px rgba(0, 0, 0, 0.25));
       }
+
       .h4 {
         left: 175px;
         top: 80px;
       }
+
       .iceCreamBtn {
         padding: 12px 20px;
         border: 1px solid;
@@ -108,6 +110,7 @@
         left: 212px;
         top: 178px;
         cursor: pointer;
+
         .bikeIcon {
           margin-left: 8px;
         }
@@ -118,14 +121,17 @@
 
 .fatherOfContainer2 {
   background: $darkBrownBg;
-  .container{
+
+  .container {
     padding-top: 120px;
-    .contentPart2 {
+
+    .ourStory {
       height: 378px;
       background-color: $lightBrownBg;
       backdrop-filter: blur(2px);
       border-radius: 35px;
       margin: auto;
+
       .womanImg {
         width: 452px;
         height: 454px;
@@ -133,11 +139,13 @@
         top: -76px;
         filter: drop-shadow(0px 153px 61px rgba(32, 19, 22, 0.03)) drop-shadow(0px 86px 52px rgba(32, 19, 22, 0.1)) drop-shadow(0px 38px 38px rgba(32, 19, 22, 0.17)) drop-shadow(0px 10px 21px rgba(32, 19, 22, 0.2)) drop-shadow(0px 0px 0px rgba(32, 19, 22, 0.2));
       }
-      .h3{
+
+      .h3 {
         left: 908px;
         top: -120px;
       }
-      .textOurStory{
+
+      .textOurStory {
         font-size: 18px;
         color: $whiteFont;
         line-height: 39px;
@@ -153,7 +161,8 @@
         -webkit-box-orient: vertical;
         overflow: hidden;
       }
-      .moreLink{
+
+      .moreLink {
         color: $whiteFont;
         font-size: 20px;
         line-height: 27px;
@@ -163,9 +172,39 @@
         right: 58px;
         bottom: 48px;
         left: 1067px;
-        &:hover{
-          .textOurStory{
-            color: blue;
+      }
+    }
+    .dotSlider {
+      margin: 40px auto 150px;
+
+      .dot {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background-color: $lightBrownBg;
+        display: inline-block;
+        cursor: ew-resize;
+
+        &:hover {
+          background-color: $cream;
+        }
+      }
+    }
+
+    .services {
+      .servicesFlex {
+        .servicesFlexBox {
+          background-color: $brown;
+          width: 170px;
+          height: 225px;
+          border-radius: 35px;
+          flex-direction: column;
+          cursor: pointer;
+
+          .textServices{
+            color: $creamFont;
+            font-size: 16px;
+            line-height: 20px;
           }
         }
       }

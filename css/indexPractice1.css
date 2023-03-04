@@ -40,25 +40,25 @@
   left: -22px;
   top: -37px;
 }
-.fatherOfContainer .contentPart1 {
+.fatherOfContainer .elzaCoffee {
   margin-top: 56px;
 }
-.fatherOfContainer .contentPart1 .text {
+.fatherOfContainer .elzaCoffee .text {
   font-size: 24px;
   color: #DABB9E;
   line-height: 46.85px;
   width: 472px;
   height: 94px;
 }
-.fatherOfContainer .contentPart1 .btn {
+.fatherOfContainer .elzaCoffee .btn {
   margin-top: 86px;
   cursor: pointer;
 }
-.fatherOfContainer .contentPart1 .creamBtn {
+.fatherOfContainer .elzaCoffee .creamBtn {
   margin-right: 49px;
   cursor: pointer;
 }
-.fatherOfContainer .contentPart1 .iceCreamBox {
+.fatherOfContainer .elzaCoffee .iceCreamBox {
   width: 366px;
   height: 247px;
   background: rgba(74, 39, 33, 0.85);
@@ -67,18 +67,18 @@
   border-radius: 50px 50px 0 0;
   margin-top: 155px;
 }
-.fatherOfContainer .contentPart1 .iceCreamBox .iceCreamImg {
+.fatherOfContainer .elzaCoffee .iceCreamBox .iceCreamImg {
   width: 264.28px;
   height: 264.28px;
   left: -26.08px;
   top: -9px;
   filter: drop-shadow(16.8381px -7.3209px 11.7134px rgba(0, 0, 0, 0.25));
 }
-.fatherOfContainer .contentPart1 .iceCreamBox .h4 {
+.fatherOfContainer .elzaCoffee .iceCreamBox .h4 {
   left: 175px;
   top: 80px;
 }
-.fatherOfContainer .contentPart1 .iceCreamBox .iceCreamBtn {
+.fatherOfContainer .elzaCoffee .iceCreamBox .iceCreamBtn {
   padding: 12px 20px;
   border: 1px solid;
   border-radius: 49px;
@@ -94,7 +94,7 @@
   top: 178px;
   cursor: pointer;
 }
-.fatherOfContainer .contentPart1 .iceCreamBox .iceCreamBtn .bikeIcon {
+.fatherOfContainer .elzaCoffee .iceCreamBox .iceCreamBtn .bikeIcon {
   margin-left: 8px;
 }
 
@@ -104,25 +104,25 @@
 .fatherOfContainer2 .container {
   padding-top: 120px;
 }
-.fatherOfContainer2 .container .contentPart2 {
+.fatherOfContainer2 .container .ourStory {
   height: 378px;
   background-color: rgba(173, 113, 74, 0.35);
   backdrop-filter: blur(2px);
   border-radius: 35px;
   margin: auto;
 }
-.fatherOfContainer2 .container .contentPart2 .womanImg {
+.fatherOfContainer2 .container .ourStory .womanImg {
   width: 452px;
   height: 454px;
   left: -48px;
   top: -76px;
   filter: drop-shadow(0px 153px 61px rgba(32, 19, 22, 0.03)) drop-shadow(0px 86px 52px rgba(32, 19, 22, 0.1)) drop-shadow(0px 38px 38px rgba(32, 19, 22, 0.17)) drop-shadow(0px 10px 21px rgba(32, 19, 22, 0.2)) drop-shadow(0px 0px 0px rgba(32, 19, 22, 0.2));
 }
-.fatherOfContainer2 .container .contentPart2 .h3 {
+.fatherOfContainer2 .container .ourStory .h3 {
   left: 908px;
   top: -120px;
 }
-.fatherOfContainer2 .container .contentPart2 .textOurStory {
+.fatherOfContainer2 .container .ourStory .textOurStory {
   font-size: 18px;
   color: #FFF8E8;
   line-height: 39px;
@@ -138,7 +138,7 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.fatherOfContainer2 .container .contentPart2 .moreLink {
+.fatherOfContainer2 .container .ourStory .moreLink {
   color: #FFF8E8;
   font-size: 20px;
   line-height: 27px;
@@ -149,8 +149,32 @@
   bottom: 48px;
   left: 1067px;
 }
-.fatherOfContainer2 .container .contentPart2 .moreLink:hover .textOurStory {
-  color: blue;
+.fatherOfContainer2 .container .dotSlider {
+  margin: 40px auto 150px;
+}
+.fatherOfContainer2 .container .dotSlider .dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: rgba(173, 113, 74, 0.35);
+  display: inline-block;
+  cursor: ew-resize;
+}
+.fatherOfContainer2 .container .dotSlider .dot:hover {
+  background-color: #F7E1BC;
+}
+.fatherOfContainer2 .container .services .servicesFlex .servicesFlexBox {
+  background-color: #54372B;
+  width: 170px;
+  height: 225px;
+  border-radius: 35px;
+  flex-direction: column;
+  cursor: pointer;
+}
+.fatherOfContainer2 .container .services .servicesFlex .servicesFlexBox .textServices {
+  color: #F8E4BE;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 /*# sourceMappingURL=indexPractice1.css.map */

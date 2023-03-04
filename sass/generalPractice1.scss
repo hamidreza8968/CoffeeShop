@@ -13,6 +13,7 @@ body{
 p{
   margin: 0;
 }
+
 .btn{
   padding: 12px 36px;
   border: 2px solid;
@@ -91,6 +92,10 @@ p{
   font-size: 112px;
   line-height: 134px;
 }
+.h2{
+  font-size: 64px;
+  line-height: 77px;
+}
 .h3{
   font-size: 54px;
   font-weight: 700;
@@ -105,4 +110,8 @@ p{
   font-family: leiko;
   font-weight: 400;
   font-style: normal;
+}
+.mx-1{
+  margin-right: 8px;
+  margin-left: 8px;
 }
