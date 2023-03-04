@@ -104,6 +104,11 @@ p {
   line-height: 134px;
 }
 
+.h2 {
+  font-size: 64px;
+  line-height: 77px;
+}
+
 .h3 {
   font-size: 54px;
   font-weight: 700;
@@ -120,6 +125,11 @@ p {
   font-family: leiko;
   font-weight: 400;
   font-style: normal;
+}
+
+.mx-1 {
+  margin-right: 8px;
+  margin-left: 8px;
 }
 
 /*# sourceMappingURL=generalPractice1.css.map */
