@@ -222,5 +222,18 @@
   bottom: 0;
   margin: auto;
 }
+.fatherOfContainer2 .reservationBox {
+  margin: 215px auto 148px;
+  height: 581px;
+  background-color: rgba(173, 113, 74, 0.35);
+  backdrop-filter: blur(2px);
+}
+.fatherOfContainer2 .reservationBox .h3 {
+  width: 357px;
+  top: -72px;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
 
 /*# sourceMappingURL=indexPractice1.css.map */

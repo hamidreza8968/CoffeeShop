@@ -256,4 +256,17 @@
       }
     }
   }
+  .reservationBox{
+    margin: 215px auto 148px;
+    height: 581px;
+    background-color: $lightBrownBg;
+    backdrop-filter: blur(2px);
+    .h3{
+      width: 357px;
+      top: -72px;
+      right: 0;
+      left: 0;
+      margin: auto;
+    }
+  }
 }
