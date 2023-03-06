@@ -120,12 +120,40 @@
     </div>
     <div class="reservationBox relative">
         <h3 class="heading h3 absolute">Reserve a Table</h3>
-        <div class="reserveFlex flex">
-            <img src="public/assets/ReserveImg.png" alt="man and woman with coffee">
-            <form action="">
-                <input type="date" placeholder="">
-            </form>
-            
+        <div class="reserveFlex flex justify-around">
+            <div class="reserveFlexLeft">
+                <img src="public/assets/ReserveImg.png" alt="man and woman with coffee">
+            </div>
+            <div class="reserveFlexRight flex">
+                <form class="reserveForm" action="">
+                    <div class="reserveFlexItem relative">
+                        <img class="dateIcon absolute" src="public/assets/icons/dateIcon.png" alt="date icon">
+                        <input class="input" type="text" placeholder="Data" onfocus="(this.type='date')">
+                    </div>
+                    <div class="reserveFlexItem flex">
+                        <input class="input" type="text" placeholder="Time" onfocus="(this.type='time')">
+                        <select class="select" name="Guest" id="Guest">
+                            <option value="Guest">Guest</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                    </div>
+                    <div class="reserveFlexItem">
+                        <input class="input" type="text" placeholder="your name">
+                    </div>
+                    <div class="reserveFlexItem">
+                        <input class="input" type="text" placeholder="your phone">
+                    </div>
+                    <div class="reserveFlexItem flex">
+                        <input class="input" type="email" placeholder="your email">
+                        <button class="btn brownBtn">Reserve</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </div>

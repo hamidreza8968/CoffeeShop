@@ -22,6 +22,7 @@ p {
   font-size: 24px;
   font-weight: 400;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .brownBtn {
@@ -73,6 +74,10 @@ p {
 
 .justify-evenly {
   justify-content: space-evenly;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .alignItem-center {
@@ -130,6 +135,25 @@ p {
 .mx-1 {
   margin-right: 8px;
   margin-left: 8px;
+}
+
+.input {
+  width: 100%;
+  height: 54px;
+  margin-bottom: 34px;
+  background-color: FFFFFF;
+  border: 1px solid #D6D6D6;
+  border-radius: 12px;
+  color: #9D8781;
+  font-family: leiko;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 27px;
+}
+
+::placeholder {
+  padding-left: 48px;
 }
 
 /*# sourceMappingURL=generalPractice1.css.map */

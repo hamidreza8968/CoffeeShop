@@ -268,5 +268,41 @@
       left: 0;
       margin: auto;
     }
+    .reserveFlex{
+      .reserveFlexLeft{
+      }
+      .reserveFlexRight{
+        .reserveForm{
+          width: 540px;
+          margin: 85px auto;
+        }
+        .reserveFlexItem{
+          width: 100%;
+          .dateIcon{
+            inset: 15px 12px;
+          }
+          .select{
+            width: 100%;
+            height: 54px;
+            margin-bottom: 34px;
+            margin-left: 37px;
+            background-color: $whiteBg;
+            border: 1px solid #D6D6D6;
+            border-radius: 12px;
+            color: #9D8781;
+            font-family: leiko;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 21px;
+            line-height: 27px;
+            padding-left: 48px;
+          }
+          .brownBtn{
+            height: 54px;
+            margin-left: 20px;
+          }
+        }
+      }
+    }
   }
 }
