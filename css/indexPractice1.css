@@ -127,16 +127,14 @@
   color: #FFF8E8;
   line-height: 39px;
   width: 592px;
-  height: 241px;
-  top: 48px;
-  right: 48px;
-  bottom: 89px;
-  left: 535px;
+  margin-top: 48px;
+  margin-right: 48px;
   display: -webkit-box;
   max-width: 580px;
   -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  float: right;
 }
 .fatherOfContainer2 .container .ourStory .moreLink {
   color: #FFF8E8;
@@ -144,10 +142,9 @@
   line-height: 27px;
   text-align: justify;
   text-decoration-line: underline;
-  top: 303px;
-  right: 58px;
-  bottom: 48px;
-  left: 1067px;
+  margin-top: 14px;
+  margin-right: 58px;
+  text-align: right;
 }
 .fatherOfContainer2 .container .dotSlider {
   margin: 40px auto 150px;
