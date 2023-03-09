@@ -1,3 +1,7 @@
+html {
+  font-size: 16px;
+}
+
 .fatherOfContainer {
   background: url("../public/assets/coffee-landing-transformed.png") no-repeat bottom right, linear-gradient(to left, #7C573C 50%, #221518 50%);
   background-size: contain;
@@ -6,13 +10,13 @@
   width: 50%;
 }
 .fatherOfContainer .header .headerLeft .headerLeftLogo {
-  margin: 10px 0;
+  margin: 0.625rem 0;
 }
 .fatherOfContainer .header .headerLeft .headerLeftIcons {
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 .fatherOfContainer .header .headerLeft .headerLeftIcons .icon {
-  margin: 8px;
+  margin: 0.5rem;
 }
 .fatherOfContainer .header .headerRight {
   width: 50%;
@@ -20,9 +24,9 @@
 .fatherOfContainer .header .headerRight .menuItem {
   z-index: 1;
   color: #FFF8E8;
-  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: -0.0625rem -0.0625rem 0.0625rem rgba(255, 255, 255, 0.1), 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.5);
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.25rem;
   cursor: pointer;
 }
 .fatherOfContainer .header .headerRight .active {
@@ -31,106 +35,106 @@
 .fatherOfContainer .header .headerRight .active:before {
   content: "";
   position: absolute;
-  width: 86px;
-  height: 75px;
-  border-radius: 0 0 30px 30px;
+  width: 5.375rem;
+  height: 4.75rem;
+  border-radius: 0 0 1.875rem 1.875rem;
   background: linear-gradient(93.99deg, rgba(223, 195, 157, 0.4) -9.94%, rgba(248, 228, 190, 0.4) 19.83%, rgba(223, 195, 157, 0.4) 50.71%, rgba(248, 228, 190, 0.4) 81.26%, rgba(248, 228, 190, 0.4) 111.66%);
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(0.125rem);
   z-index: -1;
-  left: -22px;
-  top: -37px;
+  left: -1.375rem;
+  top: -2.25rem;
 }
 .fatherOfContainer .elzaCoffee {
-  margin-top: 56px;
+  margin-top: 3.5rem;
 }
 .fatherOfContainer .elzaCoffee .text {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #DABB9E;
-  line-height: 46.85px;
-  width: 472px;
-  height: 94px;
+  line-height: 2.875rem;
+  width: 29.5rem;
+  height: 5.875rem;
 }
 .fatherOfContainer .elzaCoffee .btn {
-  margin-top: 86px;
+  margin-top: 5.375rem;
   cursor: pointer;
 }
 .fatherOfContainer .elzaCoffee .creamBtn {
-  margin-right: 49px;
+  margin-right: 3rem;
   cursor: pointer;
 }
 .fatherOfContainer .elzaCoffee .iceCreamBox {
-  width: 366px;
-  height: 247px;
+  width: 22.875rem;
+  height: 15.5rem;
   background: rgba(74, 39, 33, 0.85);
-  backdrop-filter: blur(16.9695px);
+  backdrop-filter: blur(1.0625rem);
   box-sizing: border-box;
-  border-radius: 50px 50px 0 0;
-  margin-top: 155px;
+  border-radius: 3.125rem 3.125rem 0 0;
+  margin-top: 9.625rem;
 }
 .fatherOfContainer .elzaCoffee .iceCreamBox .iceCreamImg {
-  width: 264.28px;
-  height: 264.28px;
-  left: -26.08px;
-  top: -9px;
-  filter: drop-shadow(16.8381px -7.3209px 11.7134px rgba(0, 0, 0, 0.25));
+  width: 16.5rem;
+  height: 16.5rem;
+  left: -1.625rem;
+  top: -0.625rem;
+  filter: drop-shadow(1.05rem -46rem 0.73rem rgba(0, 0, 0, 0.25));
 }
 .fatherOfContainer .elzaCoffee .iceCreamBox .h4 {
-  left: 175px;
-  top: 80px;
+  left: 11rem;
+  top: 5rem;
 }
 .fatherOfContainer .elzaCoffee .iceCreamBox .iceCreamBtn {
-  padding: 12px 20px;
-  border: 1px solid;
-  border-radius: 49px;
+  padding: 0.75rem 1.25rem;
+  border: 0.0625rem solid;
+  border-radius: 3rem;
   font-family: leiko;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 400;
-  line-height: 16px;
+  line-height: 1rem;
   background: rgba(74, 39, 33, 0.85);
-  backdrop-filter: blur(16.9695px);
+  backdrop-filter: blur(1.0625rem);
   color: #F7E1BC;
   border-color: #F7E1BC;
-  left: 212px;
-  top: 178px;
+  left: 13.25rem;
+  top: 11.125rem;
   cursor: pointer;
 }
 .fatherOfContainer .elzaCoffee .iceCreamBox .iceCreamBtn .bikeIcon {
-  margin-left: 8px;
+  margin-left: 0.5rem;
 }
 
 .fatherOfContainer2 {
   background: #221518;
 }
 .fatherOfContainer2 .container {
-  padding-top: 120px;
+  padding-top: 7.5rem;
 }
 .fatherOfContainer2 .container .ourStory {
-  height: 378px;
+  height: 23.625rem;
   background-color: rgba(173, 113, 74, 0.35);
-  backdrop-filter: blur(2px);
-  border-radius: 35px;
+  backdrop-filter: blur(0.125rem);
+  border-radius: 2.1875rem;
   margin: auto;
 }
 .fatherOfContainer2 .container .ourStory .womanImg {
-  width: 452px;
-  height: 454px;
-  left: -48px;
-  top: -76px;
-  filter: drop-shadow(0px 153px 61px rgba(32, 19, 22, 0.03)) drop-shadow(0px 86px 52px rgba(32, 19, 22, 0.1)) drop-shadow(0px 38px 38px rgba(32, 19, 22, 0.17)) drop-shadow(0px 10px 21px rgba(32, 19, 22, 0.2)) drop-shadow(0px 0px 0px rgba(32, 19, 22, 0.2));
+  width: 28.25rem;
+  height: 28.375rem;
+  left: -3rem;
+  top: -4.75rem;
+  filter: drop-shadow(0 9.5625rem 3.8125rem rgba(32, 19, 22, 0.03)) drop-shadow(0 5.375rem 3.25rem rgba(32, 19, 22, 0.1)) drop-shadow(0 2.375rem 2.375rem rgba(32, 19, 22, 0.17)) drop-shadow(0 0.625rem 1.3125rem rgba(32, 19, 22, 0.2)) drop-shadow(0 0 0 rgba(32, 19, 22, 0.2));
 }
 .fatherOfContainer2 .container .ourStory .h3 {
-  left: 908px;
-  top: -120px;
+  left: 56.75rem;
+  top: -7.5rem;
 }
 .fatherOfContainer2 .container .ourStory .text {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #FFF8E8;
-  line-height: 39px;
-  width: 592px;
-  margin-top: 48px;
-  margin-right: 48px;
+  line-height: 2.5rem;
+  width: 37rem;
+  margin-top: 3rem;
+  margin-right: 3rem;
   display: -webkit-box;
-  max-width: 580px;
+  max-width: 36.25rem;
   -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
   overflow: hidden;
@@ -138,20 +142,20 @@
 }
 .fatherOfContainer2 .container .ourStory .moreLink {
   color: #FFF8E8;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   text-align: justify;
   text-decoration-line: underline;
-  margin-top: 14px;
-  margin-right: 58px;
+  margin-top: 0.875rem;
+  margin-right: 3.625rem;
   text-align: right;
 }
 .fatherOfContainer2 .container .dotSlider {
-  margin: 40px auto 150px;
+  margin: 2.5rem auto 9.375rem;
 }
 .fatherOfContainer2 .container .dotSlider .dot {
-  width: 16px;
-  height: 16px;
+  width: 1rem;
+  height: 1rem;
   border-radius: 50%;
   background-color: rgba(173, 113, 74, 0.35);
   display: inline-block;
@@ -162,105 +166,105 @@
 }
 .fatherOfContainer2 .container .services .servicesFlex .servicesFlexBox {
   background-color: #54372B;
-  width: 170px;
-  height: 225px;
-  border-radius: 35px;
+  width: 10.625rem;
+  height: 14rem;
+  border-radius: 2.25rem;
   flex-direction: column;
   cursor: pointer;
 }
 .fatherOfContainer2 .container .services .servicesFlex .servicesFlexBox .text {
   color: #F8E4BE;
-  font-size: 16px;
-  line-height: 20px;
-  bottom: 40px;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  bottom: 2.5rem;
 }
 .fatherOfContainer2 .container .offerBox {
-  margin: 215px auto;
-  height: 378px;
+  margin: 13.5rem auto;
+  height: 23.625rem;
   background-color: rgba(173, 113, 74, 0.35);
-  backdrop-filter: blur(2px);
-  border-radius: 35px;
+  backdrop-filter: blur(0.125rem);
+  border-radius: 2.25rem;
 }
 .fatherOfContainer2 .container .offerBox .h3 {
-  left: 60px;
-  top: -116px;
+  left: 3.75rem;
+  top: -7.25rem;
 }
 .fatherOfContainer2 .container .offerBox .offerTitle {
-  font-size: 32px;
+  font-size: 2rem;
   color: #F8E4BE;
-  line-height: 70px;
-  margin-left: 60px;
-  padding-top: 35px;
+  line-height: 4.375rem;
+  margin-left: 3.75rem;
+  padding-top: 2.25rem;
 }
 .fatherOfContainer2 .container .offerBox .offerTitle .textOfSpan {
-  font-size: 48px;
+  font-size: 3rem;
   color: #F8E4BE;
-  line-height: 105px;
+  line-height: 6.5rem;
   margin-left: unset;
 }
 .fatherOfContainer2 .container .offerBox .text {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #FFF8E8;
-  line-height: 39px;
-  margin-left: 60px;
+  line-height: 2.5rem;
+  margin-left: 3.75rem;
   display: -webkit-box;
-  max-width: 598px;
+  max-width: 37.375rem;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 .fatherOfContainer2 .container .offerBox .btn {
-  margin: 32px auto 32px 60px;
+  margin: 2rem auto 2rem 3.75rem;
   cursor: pointer;
 }
 .fatherOfContainer2 .container .offerBox .offerImage {
-  right: 42px;
+  right: 2.625rem;
   top: 0;
   bottom: 0;
   margin: auto;
 }
 .fatherOfContainer2 .reservationBox {
-  margin: 215px auto 148px;
-  height: 581px;
+  margin: 13.5rem auto 9.25rem;
+  height: 36.25rem;
   background-color: rgba(173, 113, 74, 0.35);
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(0.125rem);
 }
 .fatherOfContainer2 .reservationBox .h3 {
-  width: 357px;
-  top: -72px;
+  width: 22.3125rem;
+  top: -4.5rem;
   right: 0;
   left: 0;
   margin: auto;
 }
 .fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveForm {
-  width: 540px;
-  margin: 85px auto;
+  width: 33.75rem;
+  margin: 5.3125rem auto;
 }
 .fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem {
   width: 100%;
 }
 .fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .dateIcon {
-  inset: 15px 12px;
+  inset: 1rem 0.75rem;
 }
 .fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .select {
   width: 100%;
-  height: 54px;
-  margin-bottom: 34px;
-  margin-left: 37px;
+  height: 3.375rem;
+  margin-bottom: 2.125rem;
+  margin-left: 2.374rem;
   background-color: FFFFFF;
-  border: 1px solid #D6D6D6;
-  border-radius: 12px;
+  border: 0.0625rem solid #D6D6D6;
+  border-radius: 0.75rem;
   color: #9D8781;
   font-family: leiko;
   font-style: normal;
   font-weight: 400;
-  font-size: 21px;
-  line-height: 27px;
-  padding-left: 48px;
+  font-size: 1.3125rem;
+  line-height: 1.75rem;
+  padding-left: 3rem;
 }
 .fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .brownBtn {
-  height: 54px;
-  margin-left: 20px;
+  height: 3.375rem;
+  margin-left: 1.25rem;
 }
 
 /*# sourceMappingURL=indexPractice1.css.map */
