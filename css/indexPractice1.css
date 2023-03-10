@@ -246,6 +246,21 @@ html {
 .fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .dateIcon {
   inset: 1rem 0.75rem;
 }
+.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .timeIcon {
+  inset: 1rem 0.75rem;
+}
+.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .guestIcon {
+  inset: 1rem 18rem;
+}
+.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .nameIcon {
+  inset: 1rem 0.75rem;
+}
+.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .phoneIcon {
+  inset: 1rem 0.75rem;
+}
+.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .mailIcon {
+  inset: 1rem 0.75rem;
+}
 .fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .select {
   width: 100%;
   height: 3.375rem;
