@@ -320,4 +320,40 @@ html{
       }
     }
   }
+  .container{
+    .recommended{
+      .recommendFlex{
+        .RecommendFlexItem{
+          width: 22.625rem;
+          cursor: pointer;
+          .attentionIcon{
+            top: 1.375rem;
+            left: 1.375rem;
+          }
+          .recommendImg{
+            background-color: $lightBrownBg;
+            border-radius: 2.25rem 2.25rem 0 0;
+          }
+          .basketIcon{
+            top: 17.5rem;
+            right: 0.75rem;
+          }
+          .RecommendTextBox{
+            background-color: rgba(247, 225, 188, 0.3);
+            border-radius: 0 0 2.25rem 2.25rem;
+            .recommendText{
+              font-size: 1rem;
+              line-height: 2rem;
+              color: $whiteFont;
+              padding-bottom: 1.5rem;
+              padding-top: 1.5rem;
+              text-align: center;
+              margin: auto;
+            }
+          }
+        }
+      }
+
+    }
+  }
 }

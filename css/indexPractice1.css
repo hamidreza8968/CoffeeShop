@@ -281,5 +281,34 @@ html {
   height: 3.375rem;
   margin-left: 1.25rem;
 }
+.fatherOfContainer2 .container .recommended .recommendFlex .RecommendFlexItem {
+  width: 22.625rem;
+  cursor: pointer;
+}
+.fatherOfContainer2 .container .recommended .recommendFlex .RecommendFlexItem .attentionIcon {
+  top: 1.375rem;
+  left: 1.375rem;
+}
+.fatherOfContainer2 .container .recommended .recommendFlex .RecommendFlexItem .recommendImg {
+  background-color: rgba(173, 113, 74, 0.35);
+  border-radius: 2.25rem 2.25rem 0 0;
+}
+.fatherOfContainer2 .container .recommended .recommendFlex .RecommendFlexItem .basketIcon {
+  top: 17.5rem;
+  right: 0.75rem;
+}
+.fatherOfContainer2 .container .recommended .recommendFlex .RecommendFlexItem .RecommendTextBox {
+  background-color: rgba(247, 225, 188, 0.3);
+  border-radius: 0 0 2.25rem 2.25rem;
+}
+.fatherOfContainer2 .container .recommended .recommendFlex .RecommendFlexItem .RecommendTextBox .recommendText {
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #FFF8E8;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  text-align: center;
+  margin: auto;
+}
 
 /*# sourceMappingURL=indexPractice1.css.map */
