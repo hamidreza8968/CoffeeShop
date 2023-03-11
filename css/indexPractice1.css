@@ -281,6 +281,9 @@ html {
   height: 3.375rem;
   margin-left: 1.25rem;
 }
+.fatherOfContainer2 .container .recommended {
+  margin-bottom: 4rem;
+}
 .fatherOfContainer2 .container .recommended .recommendFlex .RecommendFlexItem {
   width: 22.625rem;
   cursor: pointer;
@@ -309,6 +312,9 @@ html {
   padding-top: 1.5rem;
   text-align: center;
   margin: auto;
+}
+.fatherOfContainer2 .container .arrowsSlider {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=indexPractice1.css.map */

@@ -322,6 +322,7 @@ html{
   }
   .container{
     .recommended{
+      margin-bottom: 4rem;
       .recommendFlex{
         .RecommendFlexItem{
           width: 22.625rem;
@@ -353,7 +354,9 @@ html{
           }
         }
       }
-
+    }
+    .arrowsSlider{
+      cursor: pointer;
     }
   }
 }
