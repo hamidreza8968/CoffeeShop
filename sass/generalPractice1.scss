@@ -9,9 +9,15 @@
 }
 body{
   margin: 0;
+  padding: 0;
 }
 p{
   margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4,h5{
+  margin: 0;
+  padding: 0;
 }
 
 .btn{
@@ -76,6 +82,9 @@ p{
 .alignItem-center{
   align-items: center;
 }
+.alignItem-end{
+  align-items: end;
+}
 .text-center{
   text-align: center;
 }
@@ -87,7 +96,7 @@ p{
 }
 .heading{
   font-family: dancingScript;
-  color: $cream;
+  color: $creamFont;
   font-weight: 700;
   text-shadow: $textShadowHeading;
   font-style: normal;
@@ -132,6 +141,9 @@ p{
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+.w-100{
+  width: 100%;
 }
 ::placeholder {
   padding-left: 3rem;

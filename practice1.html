@@ -120,45 +120,47 @@
         </div>
     </div>
     <div class="reservationBox relative">
-        <h3 class="heading h3 absolute">Reserve a Table</h3>
-        <div class="reserveFlex flex justify-around">
-            <div class="reserveFlexLeft">
-                <img src="public/assets/ReserveImg.png" alt="man and woman with coffee">
-            </div>
-            <div class="reserveFlexRight flex">
-                <form class="reserveForm" action="">
-                    <div class="reserveFlexItem relative">
-                        <img class="dateIcon absolute" src="public/assets/icons/dateIcon.png" alt="date icon">
-                        <input class="input" type="text" placeholder="Data" onfocus="(this.type='date')">
-                    </div>
-                    <div class="reserveFlexItem flex relative">
-                        <img class="timeIcon absolute" src="public/assets/icons/timeIcon.png" alt="time icon">
-                        <input class="input" type="text" placeholder="Time" onfocus="(this.type='time')">
-                        <img class="guestIcon absolute" src="public/assets/icons/guestIcon.png" alt="guest icon">
-                        <select class="select" name="Guest" id="Guest">
-                            <option value="Guest">Guest</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                        </select>
-                    </div>
-                    <div class="reserveFlexItem relative">
-                        <img class="nameIcon absolute" src="public/assets/icons/nameIcon.png" alt="name icon">
-                        <input class="input" type="text" placeholder="your name">
-                    </div>
-                    <div class="reserveFlexItem relative">
-                        <img class="phoneIcon absolute" src="public/assets/icons/mobileIcon.png" alt="mobile icon">
-                        <input class="input" type="text" placeholder="your phone">
-                    </div>
-                    <div class="reserveFlexItem flex relative">
-                        <img class="mailIcon absolute" src="public/assets/icons/maiIcon.png" alt="mail icon">
-                        <input class="input" type="email" placeholder="your email">
-                        <button class="btn brownBtn">Reserve</button>
-                    </div>
-                </form>
+        <div class="container">
+            <h3 class="heading h3 absolute">Reserve a Table</h3>
+            <div class="reserveFlex flex justify-between">
+                <div class="reserveFlexLeft">
+                    <img src="public/assets/ReserveImg.png" alt="man and woman with coffee">
+                </div>
+                <div class="reserveFlexRight flex">
+                    <form class="reserveForm" action="">
+                        <div class="reserveFlexItem relative">
+                            <img class="dateIcon absolute" src="public/assets/icons/dateIcon.png" alt="date icon">
+                            <input class="input" type="text" placeholder="Data" onfocus="(this.type='date')">
+                        </div>
+                        <div class="reserveFlexItem flex relative">
+                            <img class="timeIcon absolute" src="public/assets/icons/timeIcon.png" alt="time icon">
+                            <input class="input" type="text" placeholder="Time" onfocus="(this.type='time')">
+                            <img class="guestIcon absolute" src="public/assets/icons/guestIcon.png" alt="guest icon">
+                            <select class="select" name="Guest" id="Guest">
+                                <option value="Guest">Guest</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                        </div>
+                        <div class="reserveFlexItem relative">
+                            <img class="nameIcon absolute" src="public/assets/icons/nameIcon.png" alt="name icon">
+                            <input class="input" type="text" placeholder="your name">
+                        </div>
+                        <div class="reserveFlexItem relative">
+                            <img class="phoneIcon absolute" src="public/assets/icons/mobileIcon.png" alt="mobile icon">
+                            <input class="input" type="text" placeholder="your phone">
+                        </div>
+                        <div class="reserveFlexItem flex relative">
+                            <img class="mailIcon absolute" src="public/assets/icons/maiIcon.png" alt="mail icon">
+                            <input class="input" type="email" placeholder="your email">
+                            <button class="btn brownBtn">Reserve</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
@@ -173,7 +175,8 @@
                     <img class="basketIcon absolute" src="public/assets/icons/basketIcon.png"
                          alt="shopping basket icon">
                     <div class="recommendTextBox">
-                        <p class="text recommendText">Arabica &nbsp;&nbsp;<img src="public/assets/icons/line.png" alt="">&nbsp;&nbsp;
+                        <p class="text recommendText">Arabica &nbsp;&nbsp;<img src="public/assets/icons/line.png"
+                                                                               alt="">&nbsp;&nbsp;
                             Dark Roast</p>
                     </div>
                 </div>
@@ -184,7 +187,8 @@
                     <img class="basketIcon absolute" src="public/assets/icons/basketIcon.png"
                          alt="shopping basket icon">
                     <div class="recommendTextBox">
-                        <p class="text recommendText">House Blend &nbsp;&nbsp;<img src="public/assets/icons/line.png" alt="">&nbsp;&nbsp;
+                        <p class="text recommendText">House Blend &nbsp;&nbsp;<img src="public/assets/icons/line.png"
+                                                                                   alt="">&nbsp;&nbsp;
                             Dark Roast</p>
                     </div>
                 </div>
@@ -195,17 +199,90 @@
                     <img class="basketIcon absolute" src="public/assets/icons/basketIcon.png"
                          alt="shopping basket icon">
                     <div class="recommendTextBox">
-                        <p class="text recommendText">Robusta &nbsp;&nbsp;<img src="public/assets/icons/line.png" alt="">&nbsp;&nbsp;
+                        <p class="text recommendText">Robusta &nbsp;&nbsp;<img src="public/assets/icons/line.png"
+                                                                               alt="">&nbsp;&nbsp;
                             Dark Roast</p>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="arrowsSlider text-center">
-            <img src="public/assets/icons/leftFlesh.png" alt="left slider">
-            <img src="public/assets/icons/rightFlesh.png" alt="right slider">
+            <div class="arrowsSlider text-center">
+                <img src="public/assets/icons/rightFlesh.png" class="leftArrow" alt="left slider">
+                <img src="public/assets/icons/rightFlesh.png" class="rightArrow" alt="right slider">
+            </div>
         </div>
     </div>
+    <div class="popularMenu">
+        <div class="container">
+            <h2 class="heading h2 text-center">Popular menu</h2>
+            <div class="popularFlex flex justify-between">
+                <div class="popularFlexItem">
+                    <div class="priceBox">
+                        <div class="flex justify-between alignItem-end">
+                            <p class="price heading">$40.00</p>
+                            <span class="product heading">Chocolate</span>
+                        </div>
+                        <img src="public/assets/icons/popularVector.png" alt="line">
+                    </div>
+
+                    <div class="priceBox">
+                        <div class="flex justify-between alignItem-end">
+                            <p class="price heading">25.00</p>
+                            <span class="product heading">Double Es</span>
+                        </div>
+                        <img src="public/assets/icons/popularVector.png" alt="line">
+                    </div>
+                    <div class="priceBox">
+                        <div class="flex justify-between alignItem-end">
+                            <p class="price heading">25.00</p>
+                            <span class="product heading">Double Es</span>
+                        </div>
+                        <img src="public/assets/icons/popularVector.png" alt="line">
+                    </div>
+                    <div class="priceBox">
+                        <div class="flex justify-between alignItem-end">
+                            <p class="price heading">25.00</p>
+                            <span class="product heading">Double Es</span>
+                        </div>
+                        <img src="public/assets/icons/popularVector.png" alt="line">
+                    </div>
+                </div>
+                <div class="popularFlexItem">
+                    <img class="w-100" src="public/assets/PopularMenu.png" alt="two men with coffee in hand">
+                </div>
+                <div class="popularFlexItem">
+                    <div class="priceBox">
+                        <div class="flex justify-between alignItem-end">
+                            <span class="product heading">Double Es</span>
+                            <p class="price heading">25.00</p>
+                        </div>
+                        <img src="public/assets/icons/popularVectorRight.png" alt="line">
+                    </div>
+                    <div class="priceBox">
+                        <div class="flex justify-between alignItem-end">
+                            <span class="product heading">Double Es</span>
+                            <p class="price heading">25.00</p>
+                        </div>
+                        <img src="public/assets/icons/popularVectorRight.png" alt="line">
+                    </div>
+                    <div class="priceBox">
+                        <div class="flex justify-between alignItem-end">
+                            <span class="product heading">Double Es</span>
+                            <p class="price heading">25.00</p>
+                        </div>
+                        <img src="public/assets/icons/popularVectorRight.png" alt="line">
+                    </div>
+                    <div class="priceBox">
+                        <div class="flex justify-between alignItem-end">
+                            <span class="product heading">Double Es</span>
+                            <p class="price heading">25.00</p>
+                        </div>
+                        <img src="public/assets/icons/popularVectorRight.png" alt="line">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </div>
 
 </body>

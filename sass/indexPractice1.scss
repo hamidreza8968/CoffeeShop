@@ -1,8 +1,9 @@
 @import "variablePractice1";
 
-html{
+html {
   font-size: 16px;
 }
+
 .fatherOfContainer {
   background: url("../public/assets/coffee-landing-transformed.png") no-repeat bottom right, linear-gradient(to left, #7C573C 50%, $darkBrownBg 50%);
   background-size: contain;
@@ -174,6 +175,7 @@ html{
         text-align: right;
       }
     }
+
     .dotSlider {
       margin: 2.5rem auto 9.375rem;
 
@@ -210,30 +212,35 @@ html{
         }
       }
     }
-    .offerBox{
+
+    .offerBox {
       margin: 13.5rem auto;
       height: 23.625rem;
       background-color: $lightBrownBg;
       backdrop-filter: blur(0.125rem);
       border-radius: 2.25rem;
-      .h3{
+
+      .h3 {
         left: 3.75rem;
         top: -7.25rem;
       }
-      .offerTitle{
+
+      .offerTitle {
         font-size: 2rem;
         color: $creamFont;
         line-height: 4.375rem;
         margin-left: 3.75rem;
         padding-top: 2.25rem;
-        .textOfSpan{
+
+        .textOfSpan {
           font-size: 3rem;
           color: $creamFont;
           line-height: 6.5rem;
           margin-left: unset;
         }
       }
-      .text{
+
+      .text {
         font-size: 1.125rem;
         color: $whiteFont;
         line-height: 2.5rem;
@@ -244,59 +251,72 @@ html{
         -webkit-box-orient: vertical;
         overflow: hidden;
       }
-      .btn{
+
+      .btn {
         margin: 2rem auto 2rem 3.75rem;
         cursor: pointer;
       }
-      .offerImage{
-       right: 2.625rem;
+
+      .offerImage {
+        right: 2.625rem;
         top: 0;
         bottom: 0;
         margin: auto;
       }
     }
   }
-  .reservationBox{
+
+  .reservationBox {
     margin: 13.5rem auto 9.25rem;
-    height: 36.25rem;
     background-color: $lightBrownBg;
     backdrop-filter: blur(0.125rem);
-    .h3{
+
+    .h3 {
       width: 22.3125rem;
       top: -4.5rem;
       right: 0;
       left: 0;
       margin: auto;
     }
-    .reserveFlex{
-      .reserveFlexLeft{
+
+    .reserveFlex {
+      .reserveFlexLeft {
       }
-      .reserveFlexRight{
-        .reserveForm{
+
+      .reserveFlexRight {
+        .reserveForm {
           width: 33.75rem;
-          margin: 5.3125rem auto;
+          margin-bottom: 5.3125rem;
         }
-        .reserveFlexItem{
+
+        .reserveFlexItem {
           width: 100%;
-          .dateIcon{
+
+          .dateIcon {
             inset: 1rem 0.75rem;
           }
-          .timeIcon{
+
+          .timeIcon {
             inset: 1rem 0.75rem;
           }
-          .guestIcon{
+
+          .guestIcon {
             inset: 1rem 18rem;
           }
-          .nameIcon{
+
+          .nameIcon {
             inset: 1rem 0.75rem;
           }
-          .phoneIcon{
+
+          .phoneIcon {
             inset: 1rem 0.75rem;
           }
-          .mailIcon{
+
+          .mailIcon {
             inset: 1rem 0.75rem;
           }
-          .select{
+
+          .select {
             width: 100%;
             height: 3.375rem;
             margin-bottom: 2.125rem;
@@ -312,7 +332,8 @@ html{
             line-height: 1.75rem;
             padding-left: 3rem;
           }
-          .brownBtn{
+
+          .brownBtn {
             height: 3.375rem;
             margin-left: 1.25rem;
           }
@@ -320,29 +341,36 @@ html{
       }
     }
   }
-  .container{
-    .recommended{
-      margin-bottom: 4rem;
-      .recommendFlex{
-        .RecommendFlexItem{
+
+  .container {
+    .recommended {
+      margin-bottom: 10rem;
+
+      .recommendFlex {
+        .RecommendFlexItem {
           width: 22.625rem;
           cursor: pointer;
-          .attentionIcon{
+
+          .attentionIcon {
             top: 1.375rem;
             left: 1.375rem;
           }
-          .recommendImg{
+
+          .recommendImg {
             background-color: $lightBrownBg;
             border-radius: 2.25rem 2.25rem 0 0;
           }
-          .basketIcon{
+
+          .basketIcon {
             top: 17.5rem;
             right: 0.75rem;
           }
-          .RecommendTextBox{
+
+          .RecommendTextBox {
             background-color: rgba(247, 225, 188, 0.3);
             border-radius: 0 0 2.25rem 2.25rem;
-            .recommendText{
+
+            .recommendText {
               font-size: 1rem;
               line-height: 2rem;
               color: $whiteFont;
@@ -354,9 +382,58 @@ html{
           }
         }
       }
+
+      .arrowsSlider {
+        cursor: pointer;
+        padding-top: 4rem;
+
+        .leftArrow {
+          transform: rotate(180deg);
+          border-radius: 50%;
+
+          &:hover {
+            background-color: $brown;
+            transform: scale(1.1) rotate(180deg);
+
+          }
+        }
+
+        .rightArrow {
+          border-radius: 50%;
+
+          &:hover {
+            background-color: $brown;
+            transform: scale(1.1);
+          }
+        }
+      }
     }
-    .arrowsSlider{
-      cursor: pointer;
+  }
+
+  .popularMenu {
+    background: linear-gradient(90deg, rgba(34, 21, 24, 1) 1%, rgba(82, 53, 42, 1) 7%, rgba(82, 53, 42, 1) 19%, rgba(34, 21, 24, 1) 45%, rgba(82, 53, 42, 1) 64%, rgba(34, 21, 24, 1) 100%);
+
+    .popularFlex {
+      margin-top: 4rem;
+
+      .popularFlexItem {
+        .priceBox {
+          margin-top: 5.3rem;
+
+          .price {
+            font-size: 1.5rem;
+            font-weight: 600;
+            padding-left: 1.5rem;
+          }
+
+          .product {
+            font-size: 2.5rem;
+            font-weight: 600;
+          }
+        }
+
+      }
     }
+
   }
 }

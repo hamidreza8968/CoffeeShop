@@ -225,7 +225,6 @@ html {
 }
 .fatherOfContainer2 .reservationBox {
   margin: 13.5rem auto 9.25rem;
-  height: 36.25rem;
   background-color: rgba(173, 113, 74, 0.35);
   backdrop-filter: blur(0.125rem);
 }
@@ -238,7 +237,7 @@ html {
 }
 .fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveForm {
   width: 33.75rem;
-  margin: 5.3125rem auto;
+  margin-bottom: 5.3125rem;
 }
 .fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem {
   width: 100%;
@@ -282,7 +281,7 @@ html {
   margin-left: 1.25rem;
 }
 .fatherOfContainer2 .container .recommended {
-  margin-bottom: 4rem;
+  margin-bottom: 10rem;
 }
 .fatherOfContainer2 .container .recommended .recommendFlex .RecommendFlexItem {
   width: 22.625rem;
@@ -313,8 +312,42 @@ html {
   text-align: center;
   margin: auto;
 }
-.fatherOfContainer2 .container .arrowsSlider {
+.fatherOfContainer2 .container .recommended .arrowsSlider {
   cursor: pointer;
+  padding-top: 4rem;
+}
+.fatherOfContainer2 .container .recommended .arrowsSlider .leftArrow {
+  transform: rotate(180deg);
+  border-radius: 50%;
+}
+.fatherOfContainer2 .container .recommended .arrowsSlider .leftArrow:hover {
+  background-color: #54372B;
+  transform: scale(1.1) rotate(180deg);
+}
+.fatherOfContainer2 .container .recommended .arrowsSlider .rightArrow {
+  border-radius: 50%;
+}
+.fatherOfContainer2 .container .recommended .arrowsSlider .rightArrow:hover {
+  background-color: #54372B;
+  transform: scale(1.1);
+}
+.fatherOfContainer2 .popularMenu {
+  background: linear-gradient(90deg, rgb(34, 21, 24) 1%, rgb(82, 53, 42) 7%, rgb(82, 53, 42) 19%, rgb(34, 21, 24) 45%, rgb(82, 53, 42) 64%, rgb(34, 21, 24) 100%);
+}
+.fatherOfContainer2 .popularMenu .popularFlex {
+  margin-top: 4rem;
+}
+.fatherOfContainer2 .popularMenu .popularFlex .popularFlexItem .priceBox {
+  margin-top: 5.3rem;
+}
+.fatherOfContainer2 .popularMenu .popularFlex .popularFlexItem .priceBox .price {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-left: 1.5rem;
+}
+.fatherOfContainer2 .popularMenu .popularFlex .popularFlexItem .priceBox .product {
+  font-size: 2.5rem;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=indexPractice1.css.map */
