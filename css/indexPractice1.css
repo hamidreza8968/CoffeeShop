@@ -334,20 +334,33 @@ html {
 .fatherOfContainer2 .popularMenu {
   background: linear-gradient(90deg, rgb(34, 21, 24) 1%, rgb(82, 53, 42) 7%, rgb(82, 53, 42) 19%, rgb(34, 21, 24) 45%, rgb(82, 53, 42) 64%, rgb(34, 21, 24) 100%);
 }
-.fatherOfContainer2 .popularMenu .popularFlex {
+.fatherOfContainer2 .popularMenu .container .popularFlex {
   margin-top: 4rem;
 }
-.fatherOfContainer2 .popularMenu .popularFlex .popularFlexItem .priceBox {
+.fatherOfContainer2 .popularMenu .container .popularFlex .popularFlexItem .priceBox {
   margin-top: 5.3rem;
 }
-.fatherOfContainer2 .popularMenu .popularFlex .popularFlexItem .priceBox .price {
+.fatherOfContainer2 .popularMenu .container .popularFlex .popularFlexItem .priceBox .price {
   font-size: 1.5rem;
   font-weight: 600;
   padding-left: 1.5rem;
 }
-.fatherOfContainer2 .popularMenu .popularFlex .popularFlexItem .priceBox .product {
+.fatherOfContainer2 .popularMenu .container .popularFlex .popularFlexItem .priceBox .product {
   font-size: 2.5rem;
   font-weight: 600;
+}
+.fatherOfContainer2 .popularMenu .container .menuLinkBox {
+  cursor: pointer;
+  margin-top: 5.875rem;
+}
+.fatherOfContainer2 .popularMenu .container .menuLinkBox .menuLink {
+  color: #F8E4BE;
+  text-decoration: none;
+  font-size: 2.25rem;
+}
+.fatherOfContainer2 .popularMenu .container .menuLinkBox .menuIcon {
+  height: 18px;
+  padding-left: 1.25rem;
 }
 
 /*# sourceMappingURL=indexPractice1.css.map */

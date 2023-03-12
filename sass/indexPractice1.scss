@@ -412,28 +412,45 @@ html {
 
   .popularMenu {
     background: linear-gradient(90deg, rgba(34, 21, 24, 1) 1%, rgba(82, 53, 42, 1) 7%, rgba(82, 53, 42, 1) 19%, rgba(34, 21, 24, 1) 45%, rgba(82, 53, 42, 1) 64%, rgba(34, 21, 24, 1) 100%);
+    .container {
+      .popularFlex {
+        margin-top: 4rem;
 
-    .popularFlex {
-      margin-top: 4rem;
+        .popularFlexItem {
+          .priceBox {
+            margin-top: 5.3rem;
 
-      .popularFlexItem {
-        .priceBox {
-          margin-top: 5.3rem;
+            .price {
+              font-size: 1.5rem;
+              font-weight: 600;
+              padding-left: 1.5rem;
+            }
 
-          .price {
-            font-size: 1.5rem;
-            font-weight: 600;
-            padding-left: 1.5rem;
-          }
-
-          .product {
-            font-size: 2.5rem;
-            font-weight: 600;
+            .product {
+              font-size: 2.5rem;
+              font-weight: 600;
+            }
           }
         }
-
+      }
+      .menuLinkBox{
+        cursor: pointer;
+        margin-top: 5.875rem;
+        .menuLink{
+          color: $creamFont;
+          text-decoration: none;
+          font-size: 2.25rem;
+        }
+        .menuIcon{
+          height: 18px;
+          padding-left: 1.25rem;
+        }
       }
     }
+  }
+  .container{
+    .ourBlog{
 
+    }
   }
 }
