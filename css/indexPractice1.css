@@ -224,7 +224,7 @@ html {
   margin: auto;
 }
 .fatherOfContainer2 .reservationBox {
-  margin: 13.5rem auto 9.25rem;
+  margin: 6rem auto;
   background-color: rgba(173, 113, 74, 0.35);
   backdrop-filter: blur(0.125rem);
 }
@@ -333,6 +333,10 @@ html {
 }
 .fatherOfContainer2 .popularMenu {
   background: linear-gradient(90deg, rgb(34, 21, 24) 1%, rgb(82, 53, 42) 7%, rgb(82, 53, 42) 19%, rgb(34, 21, 24) 45%, rgb(82, 53, 42) 64%, rgb(34, 21, 24) 100%);
+  padding-bottom: 10rem;
+}
+.fatherOfContainer2 .popularMenu .container {
+  padding: 0;
 }
 .fatherOfContainer2 .popularMenu .container .popularFlex {
   margin-top: 4rem;
@@ -361,6 +365,53 @@ html {
 .fatherOfContainer2 .popularMenu .container .menuLinkBox .menuIcon {
   height: 18px;
   padding-left: 1.25rem;
+}
+.fatherOfContainer2 .ourBlog {
+  background-color: rgba(173, 113, 74, 0.35);
+}
+.fatherOfContainer2 .ourBlog .h3 {
+  top: -4.25rem;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+.fatherOfContainer2 .ourBlog .container {
+  padding: 0;
+}
+.fatherOfContainer2 .ourBlog .container .ourBlogFlex .blogFlexItem {
+  background-color: #997D6C;
+  margin: 5.75rem 0.75rem;
+}
+.fatherOfContainer2 .ourBlog .container .ourBlogFlex .blogFlexItem .blogHeading {
+  color: #FFF8E8;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0.75rem;
+}
+.fatherOfContainer2 .ourBlog .container .ourBlogFlex .blogFlexItem .blogText {
+  color: #F6E5DA;
+  font-size: 0.75rem;
+  margin-bottom: 2rem;
+  margin-left: 0.75rem;
+  margin-right: 1rem;
+  display: -webkit-box;
+  max-width: 27rem;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.fatherOfContainer2 .ourBlog .container .ourBlogFlex .blogFlexItem .blogImg {
+  margin-bottom: 1rem;
+  margin-left: 0.75rem;
+}
+.fatherOfContainer2 .ourBlog .container .ourBlogFlex .blogFlexItem .moreLink {
+  color: #FFF8E8;
+  font-size: 1rem;
+  text-decoration: underline;
+  right: 1rem;
+  bottom: 1.5rem;
 }
 
 /*# sourceMappingURL=indexPractice1.css.map */
