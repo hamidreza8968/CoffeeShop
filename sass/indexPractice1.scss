@@ -452,6 +452,7 @@ html {
   }
   .ourBlog{
     background-color: $lightBrownBg;
+    margin-bottom: 7rem;
     .h3{
       top: -4.25rem;
       right: 0;
@@ -497,8 +498,47 @@ html {
           }
         }
       }
+    }
+  }
+  .container{
+    .customerReview{
+      background-color: white;
+      border-radius: 2.25rem;
+      .h2{
+        top: -3rem;
+        right: 0;
+        left: 0;
+        margin: auto;
+      }
+      .customerFlex{
+        height: 22.625rem;
+        padding-top: 6.875rem;
+        .customerFlexItem{
+          .withoutContent{
+            background-color: $creamBg;
+            width: 21.375rem;
+            height: 9.375rem;
+            border-radius: 2.25rem 2.25rem 0 0;
 
+            .customerImg{
+              border-radius: 50%;
+              margin: auto;
+              display: block;
+              position: relative;
+              top: 50%;
+              transform: translateY(-50%);
+            }
+          }
+          .withContent{
+            background-color: $lightBrownBg;
+            display: none;
+            .customerImg{
+              border-radius: 50%;
+            }
+          }
 
+        }
+      }
     }
   }
 }

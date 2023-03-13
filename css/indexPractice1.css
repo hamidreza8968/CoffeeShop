@@ -368,6 +368,7 @@ html {
 }
 .fatherOfContainer2 .ourBlog {
   background-color: rgba(173, 113, 74, 0.35);
+  margin-bottom: 7rem;
 }
 .fatherOfContainer2 .ourBlog .h3 {
   top: -4.25rem;
@@ -412,6 +413,41 @@ html {
   text-decoration: underline;
   right: 1rem;
   bottom: 1.5rem;
+}
+.fatherOfContainer2 .container .customerReview {
+  background-color: white;
+  border-radius: 2.25rem;
+}
+.fatherOfContainer2 .container .customerReview .h2 {
+  top: -3rem;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.fatherOfContainer2 .container .customerReview .customerFlex {
+  height: 22.625rem;
+  padding-top: 6.875rem;
+}
+.fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withoutContent {
+  background-color: #997D6C;
+  width: 21.375rem;
+  height: 9.375rem;
+  border-radius: 2.25rem 2.25rem 0 0;
+}
+.fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withoutContent .customerImg {
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withContent {
+  background-color: rgba(173, 113, 74, 0.35);
+  display: none;
+}
+.fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withContent .customerImg {
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=indexPractice1.css.map */
