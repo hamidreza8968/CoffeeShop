@@ -363,7 +363,7 @@ html {
   font-size: 2.25rem;
 }
 .fatherOfContainer2 .popularMenu .container .menuLinkBox .menuIcon {
-  height: 18px;
+  height: 1.25rem;
   padding-left: 1.25rem;
 }
 .fatherOfContainer2 .ourBlog {
@@ -416,6 +416,7 @@ html {
 }
 .fatherOfContainer2 .container .customerReview {
   padding: 0 2.5rem;
+  margin-bottom: 11.5rem;
 }
 .fatherOfContainer2 .container .customerReview:before {
   content: "";
@@ -423,8 +424,8 @@ html {
   inset: 0;
   background-image: url("../public/assets/cafe.jpg");
   background-size: cover;
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+  filter: blur(0.5rem);
+  -webkit-filter: blur(0.5rem);
   border-radius: 2.25rem;
 }
 .fatherOfContainer2 .container .customerReview .h2 {
@@ -505,6 +506,31 @@ html {
   color: #F8E4BE;
   text-shadow: -0.0625rem -0.0625rem 0.0625rem rgba(255, 255, 255, 0.1), 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.5);
   padding: 0 2rem 2rem;
+}
+.fatherOfContainer2 .subscribe {
+  background-color: rgba(173, 113, 74, 0.35);
+  padding-bottom: 3.5rem;
+  margin-bottom: 11.5rem;
+}
+.fatherOfContainer2 .subscribe .container {
+  padding-top: 3.5rem;
+}
+.fatherOfContainer2 .subscribe .container .subscribeText {
+  color: #F8E4BE;
+  font-size: 1.25rem;
+}
+.fatherOfContainer2 .subscribe .container .subscribeForm .subscribeIcon {
+  left: 20rem;
+  top: 1.125rem;
+}
+.fatherOfContainer2 .subscribe .container .subscribeForm .input {
+  width: 33.75rem;
+  display: block;
+  margin: 3.5rem auto;
+}
+.fatherOfContainer2 .subscribe .container .subscribeForm .btn {
+  display: block;
+  margin: auto;
 }
 
 /*# sourceMappingURL=indexPractice1.css.map */

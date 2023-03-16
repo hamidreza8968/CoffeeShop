@@ -444,7 +444,7 @@ html {
           font-size: 2.25rem;
         }
         .menuIcon{
-          height: 18px;
+          height: 1.25rem;
           padding-left: 1.25rem;
         }
       }
@@ -503,14 +503,15 @@ html {
   .container{
     .customerReview{
       padding: 0 2.5rem;
+      margin-bottom: 11.5rem;
       &:before{
         content: "";
         position: absolute;
         inset: 0;
         background-image: url("../public/assets/cafe.jpg");
         background-size: cover;
-        filter: blur(8px);
-        -webkit-filter: blur(8px);
+        filter: blur(0.5rem);
+        -webkit-filter: blur(0.5rem);
         border-radius: 2.25rem;
       }
       .h2{
@@ -592,6 +593,33 @@ html {
               padding: 0 2rem 2rem;
             }
           }
+        }
+      }
+    }
+  }
+  .subscribe{
+    background-color: $lightBrownBg;
+    padding-bottom: 3.5rem;
+    margin-bottom: 11.5rem;
+    .container{
+      padding-top: 3.5rem;
+      .subscribeText{
+        color: $creamFont;
+        font-size: 1.25rem;
+      }
+      .subscribeForm{
+        .subscribeIcon{
+          left: 20rem;
+          top: 1.125rem;
+        }
+        .input{
+          width: 33.75rem;
+          display: block;
+          margin: 3.5rem auto;
+        }
+        .btn{
+          display: block;
+          margin: auto;
         }
       }
     }
