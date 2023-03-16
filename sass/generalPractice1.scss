@@ -93,6 +93,12 @@ p{
 .absolute{
   position: absolute;
 }
+.display-none{
+  display: none!important;
+}
+.display-block{
+  display: block!important;
+}
 .heading{
   font-family: dancingScript;
   color: $creamFont;

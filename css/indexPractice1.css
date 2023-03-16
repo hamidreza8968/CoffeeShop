@@ -415,7 +415,16 @@ html {
   bottom: 1.5rem;
 }
 .fatherOfContainer2 .container .customerReview {
-  background-color: white;
+  padding: 0 2.5rem;
+}
+.fatherOfContainer2 .container .customerReview:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../public/assets/cafe.jpg");
+  background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
   border-radius: 2.25rem;
 }
 .fatherOfContainer2 .container .customerReview .h2 {
@@ -424,15 +433,33 @@ html {
   left: 0;
   margin: auto;
 }
+.fatherOfContainer2 .container .customerReview .sliderIconLeft {
+  left: 2rem;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.fatherOfContainer2 .container .customerReview .sliderIconRight {
+  transform: rotate(180deg);
+  right: 2rem;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
 .fatherOfContainer2 .container .customerReview .customerFlex {
   height: 22.625rem;
   padding-top: 6.875rem;
 }
 .fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withoutContent {
-  background-color: #997D6C;
+  background-color: rgba(153, 125, 108, 0.8509803922);
   width: 21.375rem;
   height: 9.375rem;
   border-radius: 2.25rem 2.25rem 0 0;
+  position: relative;
+  z-index: 1;
+  box-shadow: -6px -3px 3px -1px rgb(102, 55, 29);
+  -webkit-box-shadow: -6px -3px 3px -1px rgb(102, 55, 29);
+  -moz-box-shadow: -6px -3px 3px -1px rgb(102, 55, 29);
 }
 .fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withoutContent .customerImg {
   border-radius: 50%;
@@ -443,11 +470,41 @@ html {
   transform: translateY(-50%);
 }
 .fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withContent {
-  background-color: rgba(173, 113, 74, 0.35);
+  background-color: #54372B;
+  width: 21.375rem;
+  border-radius: 2.25rem 2.25rem 0 0;
   display: none;
+  position: relative;
+  z-index: 1;
+  box-shadow: -6px -3px 3px -1px rgb(102, 55, 29);
+  -webkit-box-shadow: -6px -3px 3px -1px rgb(102, 55, 29);
+  -moz-box-shadow: -6px -3px 3px -1px rgb(102, 55, 29);
+}
+.fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withContent .camaIcon {
+  top: -1rem;
+  right: 1.5rem;
 }
 .fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withContent .customerImg {
   border-radius: 50%;
+  display: block;
+  margin: auto;
+  padding: 0.75rem 0;
+}
+.fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withContent .customerName {
+  font-size: 1rem;
+  color: #F8E4BE;
+  text-shadow: -0.0625rem -0.0625rem 0.0625rem rgba(255, 255, 255, 0.1), 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.5);
+}
+.fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withContent .starsImg {
+  display: block;
+  margin: auto;
+  padding: 1.5rem 0;
+}
+.fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withContent .customerComment {
+  font-size: 0.75rem;
+  color: #F8E4BE;
+  text-shadow: -0.0625rem -0.0625rem 0.0625rem rgba(255, 255, 255, 0.1), 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.5);
+  padding: 0 2rem 2rem;
 }
 
 /*# sourceMappingURL=indexPractice1.css.map */

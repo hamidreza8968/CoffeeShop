@@ -502,12 +502,34 @@ html {
   }
   .container{
     .customerReview{
-      background-color: white;
-      border-radius: 2.25rem;
+      padding: 0 2.5rem;
+      &:before{
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: url("../public/assets/cafe.jpg");
+        background-size: cover;
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+        border-radius: 2.25rem;
+      }
       .h2{
         top: -3rem;
         right: 0;
         left: 0;
+        margin: auto;
+      }
+      .sliderIconLeft{
+        left: 2rem;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+      }
+      .sliderIconRight{
+        transform: rotate(180deg);
+        right: 2rem;
+        top: 0;
+        bottom: 0;
         margin: auto;
       }
       .customerFlex{
@@ -515,11 +537,15 @@ html {
         padding-top: 6.875rem;
         .customerFlexItem{
           .withoutContent{
-            background-color: $creamBg;
+            background-color: #997d6cd9;
             width: 21.375rem;
             height: 9.375rem;
             border-radius: 2.25rem 2.25rem 0 0;
-
+            position: relative;
+            z-index: 1;
+            box-shadow: -6px -3px 3px -1px rgba(102,55,29,1);
+            -webkit-box-shadow: -6px -3px 3px -1px rgba(102,55,29,1);
+            -moz-box-shadow: -6px -3px 3px -1px rgba(102,55,29,1);
             .customerImg{
               border-radius: 50%;
               margin: auto;
@@ -530,13 +556,42 @@ html {
             }
           }
           .withContent{
-            background-color: $lightBrownBg;
+            background-color: $brown;
+            width: 21.375rem;
+            border-radius: 2.25rem 2.25rem 0 0;
             display: none;
+            position: relative;
+            z-index: 1;
+            box-shadow: -6px -3px 3px -1px rgba(102,55,29,1);
+            -webkit-box-shadow: -6px -3px 3px -1px rgba(102,55,29,1);
+            -moz-box-shadow: -6px -3px 3px -1px rgba(102,55,29,1);
+            .camaIcon{
+              top: -1rem;
+              right: 1.5rem;
+            }
             .customerImg{
               border-radius: 50%;
+              display: block;
+              margin: auto;
+              padding: 0.75rem 0;
+            }
+            .customerName{
+              font-size: 1rem;
+              color: $creamFont;
+              text-shadow: $textShadow;
+            }
+            .starsImg{
+              display: block;
+              margin: auto;
+              padding: 1.5rem 0;
+            }
+            .customerComment{
+              font-size: 0.75rem;
+              color: $creamFont;
+              text-shadow: $textShadow;
+              padding: 0 2rem 2rem;
             }
           }
-
         }
       }
     }
