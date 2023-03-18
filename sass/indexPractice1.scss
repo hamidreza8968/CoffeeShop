@@ -624,4 +624,36 @@ html {
       }
     }
   }
+  .footer{
+    background-color: $lightBrownBg;
+
+    .mediaIcon{
+      top: -1.75rem;
+      right: 5.5rem;
+    }
+    .container{
+      .footerImg{
+        left: 0;
+        top: -3rem;
+      }
+      .footerFlex{
+        margin-left: 18rem;
+        .footerFlexClm{
+          height: 100%;
+          .text{
+            color: $creamFont;
+            font-size: 1rem;
+            margin-bottom: 1.75rem;
+          }
+          .footerHeading{
+            font-size: 1.25rem;
+          }
+          .lastClm{
+            margin-bottom: 3.5rem;
+          }
+        }
+      }
+
+    }
+  }
 }

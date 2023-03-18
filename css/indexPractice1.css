@@ -532,5 +532,33 @@ html {
   display: block;
   margin: auto;
 }
+.fatherOfContainer2 .footer {
+  background-color: rgba(173, 113, 74, 0.35);
+}
+.fatherOfContainer2 .footer .mediaIcon {
+  top: -1.75rem;
+  right: 5.5rem;
+}
+.fatherOfContainer2 .footer .container .footerImg {
+  left: 0;
+  top: -3rem;
+}
+.fatherOfContainer2 .footer .container .footerFlex {
+  margin-left: 18rem;
+}
+.fatherOfContainer2 .footer .container .footerFlex .footerFlexClm {
+  height: 100%;
+}
+.fatherOfContainer2 .footer .container .footerFlex .footerFlexClm .text {
+  color: #F8E4BE;
+  font-size: 1rem;
+  margin-bottom: 1.75rem;
+}
+.fatherOfContainer2 .footer .container .footerFlex .footerFlexClm .footerHeading {
+  font-size: 1.25rem;
+}
+.fatherOfContainer2 .footer .container .footerFlex .footerFlexClm .lastClm {
+  margin-bottom: 3.5rem;
+}
 
 /*# sourceMappingURL=indexPractice1.css.map */
