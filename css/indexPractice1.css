@@ -533,7 +533,7 @@ html {
   margin: auto;
 }
 .fatherOfContainer2 .footer {
-  background-color: rgba(173, 113, 74, 0.35);
+  background: rgba(173, 113, 74, 0.35);
 }
 .fatherOfContainer2 .footer .mediaIcon {
   top: -1.75rem;
@@ -550,7 +550,7 @@ html {
   height: 100%;
 }
 .fatherOfContainer2 .footer .container .footerFlex .footerFlexClm .text {
-  color: #F8E4BE;
+  color: #FFF8E8;
   font-size: 1rem;
   margin-bottom: 1.75rem;
 }
@@ -559,6 +559,16 @@ html {
 }
 .fatherOfContainer2 .footer .container .footerFlex .footerFlexClm .lastClm {
   margin-bottom: 3.5rem;
+}
+.fatherOfContainer2 .footer .container .footerFlex .footerFlexClm .lastClm .footerIcon {
+  margin-right: 0.75rem;
+}
+.fatherOfContainer2 .footer .container .copyRight {
+  padding-bottom: 2.5rem;
+}
+.fatherOfContainer2 .footer .container .copyRight .text {
+  color: rgba(255, 243, 224, 0.65);
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=indexPractice1.css.map */

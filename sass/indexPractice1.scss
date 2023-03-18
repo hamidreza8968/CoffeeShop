@@ -625,7 +625,7 @@ html {
     }
   }
   .footer{
-    background-color: $lightBrownBg;
+    background: $lightBrownBg;
 
     .mediaIcon{
       top: -1.75rem;
@@ -641,7 +641,7 @@ html {
         .footerFlexClm{
           height: 100%;
           .text{
-            color: $creamFont;
+            color: $whiteFont;
             font-size: 1rem;
             margin-bottom: 1.75rem;
           }
@@ -650,10 +650,19 @@ html {
           }
           .lastClm{
             margin-bottom: 3.5rem;
+            .footerIcon{
+              margin-right: 0.75rem;
+            }
           }
         }
       }
-
+      .copyRight{
+        padding-bottom: 2.5rem;
+        .text{
+          color: rgba(255, 243, 224, 0.65);
+          font-size: 1rem;
+        }
+      }
     }
   }
 }
