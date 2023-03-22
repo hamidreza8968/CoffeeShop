@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   font-size: 16px;
 }
@@ -28,6 +29,7 @@ html {
   font-weight: 400;
   font-size: 1.25rem;
   cursor: pointer;
+  padding: 0 10px;
 }
 .fatherOfContainer .header .headerRight .active {
   text-shadow: unset;
@@ -35,14 +37,68 @@ html {
 .fatherOfContainer .header .headerRight .active:before {
   content: "";
   position: absolute;
-  width: 5.375rem;
   height: 4.75rem;
   border-radius: 0 0 1.875rem 1.875rem;
   background: linear-gradient(93.99deg, rgba(223, 195, 157, 0.4) -9.94%, rgba(248, 228, 190, 0.4) 19.83%, rgba(223, 195, 157, 0.4) 50.71%, rgba(248, 228, 190, 0.4) 81.26%, rgba(248, 228, 190, 0.4) 111.66%);
   backdrop-filter: blur(0.125rem);
   z-index: -1;
-  left: -1.375rem;
   top: -2.25rem;
+  right: 0;
+  left: 0;
+}
+.fatherOfContainer .header .responsiveMenu {
+  display: none;
+  cursor: pointer;
+}
+.fatherOfContainer .header .responsiveMenu .responsiveMenuIcon {
+  height: 4px;
+  width: 40px;
+  background-color: #221518;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 42px;
+}
+.fatherOfContainer .header .responsiveMenu .responsiveMenuIcon:before {
+  content: "";
+  height: 4px;
+  width: 40px;
+  background-color: #221518;
+  border-radius: 10px;
+  position: absolute;
+  top: -8px;
+}
+.fatherOfContainer .header .responsiveMenu .responsiveMenuIcon:after {
+  content: "";
+  height: 4px;
+  width: 40px;
+  background-color: #221518;
+  border-radius: 10px;
+  position: absolute;
+  top: 8px;
+}
+.fatherOfContainer .header .responsiveMenuOpen {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 250px;
+  background-color: #F7E1BC;
+  color: #221518;
+  border-radius: 10px 0 10px 10px;
+}
+.fatherOfContainer .header .responsiveMenuOpen .menuItem {
+  margin: 12px;
+  padding: 12px;
+}
+.fatherOfContainer .header .responsiveMenuOpen .close {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.fatherOfContainer .header .responsiveMenuOpen .close:before {
+  display: inline-block;
+  content: "×";
 }
 .fatherOfContainer .elzaCoffee {
   margin-top: 3.5rem;

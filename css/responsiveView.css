@@ -1,0 +1,10 @@
+@media (max-width: 992px) {
+  .headerRight {
+    display: none !important;
+  }
+  .responsiveMenu {
+    display: block !important;
+  }
+}
+
+/*# sourceMappingURL=responsiveView.css.map */

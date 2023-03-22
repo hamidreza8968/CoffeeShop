@@ -1,0 +1,10 @@
+@import "variablePractice1";
+
+@media (max-width: $lg) {
+  .headerRight {
+    display: none!important;
+  }
+  .responsiveMenu{
+    display: block!important;
+  }
+}
