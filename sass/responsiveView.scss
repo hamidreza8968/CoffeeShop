@@ -1,10 +1,203 @@
 @import "variablePractice1";
 
 @media (max-width: $lg) {
-  .headerRight {
-    display: none!important;
+
+  .fatherOfContainer{
+    background: unset;
+    background-color: $darkBrownBg;
+
+    .container {
+      max-width: 90rem;
+
+      .header{
+        .headerRight {
+          display: none;
+        }
+        .responsiveMenu{
+          display: block;
+        }
+      }
+
+      .elzaCoffee{
+        .h1{
+          font-size: 4rem;
+          text-align: center;
+        }
+        .text {
+          font-size: 1.4rem;
+          width: auto;
+          text-align: center;
+        }
+        .btns{
+          display: flex;
+          justify-content: center;
+          gap: 3rem;
+
+          .creamBtn{
+            margin-right: 0;
+          }
+        }
+      }
+
+      .iceCreamBox{
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 4rem;
+      }
+    }
   }
-  .responsiveMenu{
-    display: block!important;
+
+
+  .fatherOfContainer2{
+    .container {
+      max-width: 90rem;
+
+      .ourStory{
+        grid-template-columns: 1fr;
+
+        .womanImg{
+          display: none;
+        }
+
+        .text{
+          font-size: 1rem;
+        }
+
+        .moreLink {
+          grid-column: 1;
+
+        }
+      }
+
+      .services {
+        .servicesContainer {
+          grid-template-columns: repeat(3 , 1fr);
+          row-gap: 1.5rem;
+        }
+      }
+
+      .offer {
+
+        .offerBox {
+          grid-template-columns: 1fr;
+
+          .offerContent{
+            align-items: center;
+
+            .offerTitle {
+              font-size: 1.8rem;
+
+              .textOfSpan {
+                font-size: 2.5rem;
+              }
+            }
+            .text {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
   }
 }
+
+
+
+
+@media (max-width: $sm) {
+  .fatherOfContainer{
+
+    .container {
+      max-width: 48rem;
+
+      .elzaCoffee{
+        .text {
+          font-size: 1.1rem;
+        }
+        .btns{
+          flex-direction: column;
+          align-items: center;
+          gap: 2rem;
+
+          .brownBtn{
+            margin-top: 0;
+          }
+        }
+      }
+
+      .iceCreamBox{
+        width: 21.5rem;
+        margin-right: auto;
+        margin-left: auto;
+
+        .iceCreamImg{
+          width: 14rem;
+          height: 14rem;
+        }
+      }
+    }
+  }
+
+  .fatherOfContainer2{
+    .container {
+      max-width: 48rem;
+
+      .h2{
+        font-size: 3rem;
+      }
+
+      .ourStory{
+        padding: 1.5rem;
+        .womanImg{
+          display: none;
+        }
+
+        .text{
+          font-size: 0.875rem;
+          line-height: 1.75rem;
+        }
+
+        .moreLink {
+          grid-column: 1;
+          font-size: 0.875rem;
+
+        }
+      }
+
+      .services {
+        .servicesContainer {
+          grid-template-columns: repeat(2 , 1fr);
+          row-gap: 1.5rem;
+
+          .serviceBox {
+            width: 9rem;
+          }
+        }
+      }
+
+      .offer {
+
+        .offerBox {
+
+          .offerContent{
+
+            .text {
+              font-size: 0.875rem;
+            }
+            .btn {
+              font-size: 1.25rem;
+            }
+          }
+          .offerImage {
+            width: 18rem;
+            height: 18rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+

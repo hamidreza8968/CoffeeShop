@@ -1,0 +1,619 @@
+html {
+  font-size: 16px;
+}
+
+.fatherOfContainer {
+  background: url("../public/assets/coffee-landing-transformed.png") no-repeat bottom right, linear-gradient(to left, #7C573C 50%, #221518 50%);
+  background-size: contain;
+}
+.fatherOfContainer .header .headerLeft {
+  width: 50%;
+}
+.fatherOfContainer .header .headerLeft .headerLeftLogo {
+  margin: 0.625rem 0;
+}
+.fatherOfContainer .header .headerLeft .headerLeftIcons {
+  margin-right: 1.25rem;
+}
+.fatherOfContainer .header .headerLeft .headerLeftIcons .icon {
+  margin: 0.5rem;
+}
+.fatherOfContainer .header .headerRight {
+  width: 50%;
+}
+.fatherOfContainer .header .headerRight .menuItem {
+  z-index: 1;
+  color: #FFF8E8;
+  text-shadow: -0.0625rem -0.0625rem 0.0625rem rgba(255, 255, 255, 0.1), 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: 0 10px;
+  transition: all 0.3s;
+}
+.fatherOfContainer .header .headerRight .menuItem:hover, .fatherOfContainer .header .headerRight .menuItem:active {
+  color: #54372B;
+}
+.fatherOfContainer .header .responsiveMenu {
+  display: none;
+  cursor: pointer;
+}
+.fatherOfContainer .header .responsiveMenu .responsiveMenuIcon {
+  height: 4px;
+  width: 40px;
+  background-color: #F7E1BC;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 42px;
+}
+.fatherOfContainer .header .responsiveMenu .responsiveMenuIcon:before {
+  content: "";
+  height: 4px;
+  width: 40px;
+  background-color: #F7E1BC;
+  border-radius: 10px;
+  position: absolute;
+  top: -8px;
+}
+.fatherOfContainer .header .responsiveMenu .responsiveMenuIcon:after {
+  content: "";
+  height: 4px;
+  width: 40px;
+  background-color: #F7E1BC;
+  border-radius: 10px;
+  position: absolute;
+  top: 8px;
+}
+.fatherOfContainer .header .responsiveMenuOpen {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 250px;
+  background-color: #F7E1BC;
+  color: #221518;
+  border-radius: 10px 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+}
+.fatherOfContainer .header .responsiveMenuOpen .responsiveMenuItem {
+  text-shadow: -0.0625rem -0.0625rem 0.0625rem rgba(255, 255, 255, 0.1), 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  font-size: 1.25rem;
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  transition: all 0.3s;
+}
+.fatherOfContainer .header .responsiveMenuOpen .responsiveMenuItem:hover, .fatherOfContainer .header .responsiveMenuOpen .responsiveMenuItem:active {
+  color: #54372B;
+  border-bottom: 1px solid #54372B;
+}
+.fatherOfContainer .header .responsiveMenuOpen .closeIcon {
+  font-size: 30px;
+  cursor: pointer;
+  align-self: end;
+  margin-right: 8px;
+}
+.fatherOfContainer .elzaCoffee {
+  margin-top: 3.5rem;
+}
+.fatherOfContainer .elzaCoffee .text {
+  font-size: 1.5rem;
+  color: #DABB9E;
+  line-height: 2.875rem;
+  width: 28.5rem;
+}
+.fatherOfContainer .elzaCoffee .btn {
+  margin-top: 5.375rem;
+  cursor: pointer;
+}
+.fatherOfContainer .elzaCoffee .creamBtn {
+  margin-right: 3rem;
+  width: 12rem;
+  cursor: pointer;
+}
+.fatherOfContainer .elzaCoffee .brownBtn {
+  width: 12rem;
+}
+.fatherOfContainer .elzaCoffee .iceCreamBox {
+  width: 22.875rem;
+  height: 15.5rem;
+  background: rgba(74, 39, 33, 0.85);
+  backdrop-filter: blur(1.0625rem);
+  box-sizing: border-box;
+  border-radius: 3.125rem 3.125rem 0 0;
+  margin-top: 9.625rem;
+}
+.fatherOfContainer .elzaCoffee .iceCreamBox .iceCreamImg {
+  width: 16.5rem;
+  height: 16.5rem;
+  left: -1.625rem;
+  top: -0.625rem;
+  filter: drop-shadow(1.05rem -46rem 0.73rem rgba(0, 0, 0, 0.25));
+}
+.fatherOfContainer .elzaCoffee .iceCreamBox .h4 {
+  left: 11rem;
+  top: 5rem;
+}
+.fatherOfContainer .elzaCoffee .iceCreamBox .iceCreamBtn {
+  padding: 0.75rem 1.25rem;
+  border: 0.0625rem solid;
+  border-radius: 3rem;
+  font-family: leiko;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  line-height: 1rem;
+  background: rgba(74, 39, 33, 0.85);
+  backdrop-filter: blur(1.0625rem);
+  color: #F7E1BC;
+  border-color: #F7E1BC;
+  left: 13.25rem;
+  top: 11.125rem;
+  cursor: pointer;
+}
+.fatherOfContainer .elzaCoffee .iceCreamBox .iceCreamBtn .bikeIcon {
+  margin-left: 0.5rem;
+}
+
+.fatherOfContainer2 {
+  background: #221518;
+}
+.fatherOfContainer2 .container {
+  padding-top: 7.5rem;
+}
+.fatherOfContainer2 .container .ourStory {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 2rem;
+  background-color: rgba(173, 113, 74, 0.35);
+  backdrop-filter: blur(0.125rem);
+  border-radius: 2.1875rem;
+  margin: auto;
+}
+.fatherOfContainer2 .container .ourStory .womanImg {
+  width: 26rem;
+  height: 26rem;
+  filter: drop-shadow(0 9.5625rem 3.8125rem rgba(32, 19, 22, 0.03)) drop-shadow(0 5.375rem 3.25rem rgba(32, 19, 22, 0.1)) drop-shadow(0 2.375rem 2.375rem rgba(32, 19, 22, 0.17)) drop-shadow(0 0.625rem 1.3125rem rgba(32, 19, 22, 0.2)) drop-shadow(0 0 0 rgba(32, 19, 22, 0.2));
+  grid-row: 1/3;
+}
+.fatherOfContainer2 .container .ourStory .text {
+  font-size: 1.125rem;
+  color: #FFF8E8;
+  line-height: 2.5rem;
+  align-self: end;
+  display: -webkit-box;
+  max-width: 60rem;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.fatherOfContainer2 .container .ourStory .moreLink {
+  color: #FFF8E8;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  grid-column: 2;
+  justify-self: end;
+}
+.fatherOfContainer2 .container .dotSlider {
+  margin: 2.5rem auto 9.375rem;
+}
+.fatherOfContainer2 .container .dotSlider .dot {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: rgba(173, 113, 74, 0.35);
+  display: inline-block;
+  cursor: ew-resize;
+}
+.fatherOfContainer2 .container .dotSlider .dot:hover {
+  background-color: #F7E1BC;
+}
+.fatherOfContainer2 .container .services .servicesContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+.fatherOfContainer2 .container .services .servicesContainer .serviceBox {
+  background-color: #54372B;
+  height: 15rem;
+  width: 11rem;
+  border-radius: 2.25rem;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.fatherOfContainer2 .container .services .servicesContainer .serviceBox .text {
+  color: #F8E4BE;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+.fatherOfContainer2 .container .offer {
+  margin: 13.5rem auto;
+}
+.fatherOfContainer2 .container .offer .offerBox {
+  background-color: rgba(173, 113, 74, 0.35);
+  padding: 1.5rem;
+  backdrop-filter: blur(0.125rem);
+  border-radius: 2.25rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-items: center;
+}
+.fatherOfContainer2 .container .offer .offerBox .offerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.fatherOfContainer2 .container .offer .offerBox .offerContent .offerTitle {
+  font-size: 2rem;
+  color: #F8E4BE;
+  line-height: 4.375rem;
+}
+.fatherOfContainer2 .container .offer .offerBox .offerContent .offerTitle .textOfSpan {
+  font-size: 3rem;
+  color: #F8E4BE;
+  line-height: 6.5rem;
+}
+.fatherOfContainer2 .container .offer .offerBox .offerContent .text {
+  font-size: 1.125rem;
+  color: #FFF8E8;
+  line-height: 2.5rem;
+}
+.fatherOfContainer2 .container .offer .offerBox .offerContent .btn {
+  cursor: pointer;
+  width: 12rem;
+}
+.fatherOfContainer2 .reservationBox {
+  margin: 6rem auto;
+  background-color: rgba(173, 113, 74, 0.35);
+  backdrop-filter: blur(0.125rem);
+}
+.fatherOfContainer2 .reservationBox .h3 {
+  width: 22.3125rem;
+  top: -4.5rem;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveForm {
+  width: 33.75rem;
+  margin-bottom: 5.3125rem;
+}
+.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem {
+  width: 100%;
+}
+.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .dateIcon {
+  inset: 1rem 0.75rem;
+}
+.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .timeIcon {
+  inset: 1rem 0.75rem;
+}
+.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .guestIcon {
+  inset: 1rem 18rem;
+}
+.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .nameIcon {
+  inset: 1rem 0.75rem;
+}
+.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .phoneIcon {
+  inset: 1rem 0.75rem;
+}
+.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .mailIcon {
+  inset: 1rem 0.75rem;
+}
+.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .select {
+  width: 100%;
+  height: 3.375rem;
+  margin-bottom: 2.125rem;
+  margin-left: 2.374rem;
+  background-color: FFFFFF;
+  border: 0.0625rem solid #D6D6D6;
+  border-radius: 0.75rem;
+  color: #9D8781;
+  font-family: leiko;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3125rem;
+  line-height: 1.75rem;
+  padding-left: 3rem;
+}
+.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .brownBtn {
+  height: 3.375rem;
+  margin-left: 1.25rem;
+}
+.fatherOfContainer2 .container .recommended {
+  margin-bottom: 10rem;
+}
+.fatherOfContainer2 .container .recommended .recommendFlex .RecommendFlexItem {
+  width: 22.625rem;
+  cursor: pointer;
+}
+.fatherOfContainer2 .container .recommended .recommendFlex .RecommendFlexItem .attentionIcon {
+  top: 1.375rem;
+  left: 1.375rem;
+}
+.fatherOfContainer2 .container .recommended .recommendFlex .RecommendFlexItem .recommendImg {
+  background-color: rgba(173, 113, 74, 0.35);
+  border-radius: 2.25rem 2.25rem 0 0;
+}
+.fatherOfContainer2 .container .recommended .recommendFlex .RecommendFlexItem .basketIcon {
+  top: 17.5rem;
+  right: 0.75rem;
+}
+.fatherOfContainer2 .container .recommended .recommendFlex .RecommendFlexItem .RecommendTextBox {
+  background-color: rgba(247, 225, 188, 0.3);
+  border-radius: 0 0 2.25rem 2.25rem;
+}
+.fatherOfContainer2 .container .recommended .recommendFlex .RecommendFlexItem .RecommendTextBox .recommendText {
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #FFF8E8;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  text-align: center;
+  margin: auto;
+}
+.fatherOfContainer2 .container .recommended .arrowsSlider {
+  cursor: pointer;
+  padding-top: 4rem;
+}
+.fatherOfContainer2 .container .recommended .arrowsSlider .leftArrow {
+  transform: rotate(180deg);
+  border-radius: 50%;
+}
+.fatherOfContainer2 .container .recommended .arrowsSlider .leftArrow:hover {
+  background-color: #54372B;
+  transform: scale(1.1) rotate(180deg);
+}
+.fatherOfContainer2 .container .recommended .arrowsSlider .rightArrow {
+  border-radius: 50%;
+}
+.fatherOfContainer2 .container .recommended .arrowsSlider .rightArrow:hover {
+  background-color: #54372B;
+  transform: scale(1.1);
+}
+.fatherOfContainer2 .popularMenu {
+  background: linear-gradient(90deg, rgb(34, 21, 24) 1%, rgb(82, 53, 42) 7%, rgb(82, 53, 42) 19%, rgb(34, 21, 24) 45%, rgb(82, 53, 42) 64%, rgb(34, 21, 24) 100%);
+  padding-bottom: 10rem;
+}
+.fatherOfContainer2 .popularMenu .container {
+  padding: 0;
+}
+.fatherOfContainer2 .popularMenu .container .popularFlex {
+  margin-top: 4rem;
+}
+.fatherOfContainer2 .popularMenu .container .popularFlex .popularFlexItem .priceBox {
+  margin-top: 5.3rem;
+}
+.fatherOfContainer2 .popularMenu .container .popularFlex .popularFlexItem .priceBox .price {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-left: 1.5rem;
+}
+.fatherOfContainer2 .popularMenu .container .popularFlex .popularFlexItem .priceBox .product {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.fatherOfContainer2 .popularMenu .container .menuLinkBox {
+  cursor: pointer;
+  margin-top: 5.875rem;
+}
+.fatherOfContainer2 .popularMenu .container .menuLinkBox .menuLink {
+  color: #F8E4BE;
+  text-decoration: none;
+  font-size: 2.25rem;
+}
+.fatherOfContainer2 .popularMenu .container .menuLinkBox .menuIcon {
+  height: 1.25rem;
+  padding-left: 1.25rem;
+}
+.fatherOfContainer2 .ourBlog {
+  background-color: rgba(173, 113, 74, 0.35);
+  margin-bottom: 7rem;
+}
+.fatherOfContainer2 .ourBlog .h3 {
+  top: -4.25rem;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+.fatherOfContainer2 .ourBlog .container {
+  padding: 0;
+}
+.fatherOfContainer2 .ourBlog .container .ourBlogFlex .blogFlexItem {
+  background-color: #997D6C;
+  margin: 5.75rem 0.75rem;
+}
+.fatherOfContainer2 .ourBlog .container .ourBlogFlex .blogFlexItem .blogHeading {
+  color: #FFF8E8;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0.75rem;
+}
+.fatherOfContainer2 .ourBlog .container .ourBlogFlex .blogFlexItem .blogText {
+  color: #F6E5DA;
+  font-size: 0.75rem;
+  margin-bottom: 2rem;
+  margin-left: 0.75rem;
+  margin-right: 1rem;
+  display: -webkit-box;
+  max-width: 27rem;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.fatherOfContainer2 .ourBlog .container .ourBlogFlex .blogFlexItem .blogImg {
+  margin-bottom: 1rem;
+  margin-left: 0.75rem;
+}
+.fatherOfContainer2 .ourBlog .container .ourBlogFlex .blogFlexItem .moreLink {
+  color: #FFF8E8;
+  font-size: 1rem;
+  text-decoration: underline;
+  right: 1rem;
+  bottom: 1.5rem;
+}
+.fatherOfContainer2 .container .customerReview {
+  padding: 0 2.5rem;
+  margin-bottom: 11.5rem;
+}
+.fatherOfContainer2 .container .customerReview:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../public/assets/cafe.jpg");
+  background-size: cover;
+  filter: blur(0.5rem);
+  -webkit-filter: blur(0.5rem);
+  border-radius: 2.25rem;
+}
+.fatherOfContainer2 .container .customerReview .h2 {
+  top: -3rem;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.fatherOfContainer2 .container .customerReview .sliderIconLeft {
+  left: 2rem;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.fatherOfContainer2 .container .customerReview .sliderIconRight {
+  transform: rotate(180deg);
+  right: 2rem;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.fatherOfContainer2 .container .customerReview .customerFlex {
+  height: 22.625rem;
+  padding-top: 6.875rem;
+}
+.fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withoutContent {
+  background-color: rgba(153, 125, 108, 0.8509803922);
+  width: 21.375rem;
+  height: 9.375rem;
+  border-radius: 2.25rem 2.25rem 0 0;
+  position: relative;
+  z-index: 1;
+  box-shadow: -6px -3px 3px -1px rgb(102, 55, 29);
+  -webkit-box-shadow: -6px -3px 3px -1px rgb(102, 55, 29);
+  -moz-box-shadow: -6px -3px 3px -1px rgb(102, 55, 29);
+}
+.fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withoutContent .customerImg {
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withContent {
+  background-color: #54372B;
+  width: 21.375rem;
+  border-radius: 2.25rem 2.25rem 0 0;
+  display: none;
+  position: relative;
+  z-index: 1;
+  box-shadow: -6px -3px 3px -1px rgb(102, 55, 29);
+  -webkit-box-shadow: -6px -3px 3px -1px rgb(102, 55, 29);
+  -moz-box-shadow: -6px -3px 3px -1px rgb(102, 55, 29);
+}
+.fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withContent .camaIcon {
+  top: -1rem;
+  right: 1.5rem;
+}
+.fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withContent .customerImg {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  padding: 0.75rem 0;
+}
+.fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withContent .customerName {
+  font-size: 1rem;
+  color: #F8E4BE;
+  text-shadow: -0.0625rem -0.0625rem 0.0625rem rgba(255, 255, 255, 0.1), 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.5);
+}
+.fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withContent .starsImg {
+  display: block;
+  margin: auto;
+  padding: 1.5rem 0;
+}
+.fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withContent .customerComment {
+  font-size: 0.75rem;
+  color: #F8E4BE;
+  text-shadow: -0.0625rem -0.0625rem 0.0625rem rgba(255, 255, 255, 0.1), 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.5);
+  padding: 0 2rem 2rem;
+}
+.fatherOfContainer2 .subscribe {
+  background-color: rgba(173, 113, 74, 0.35);
+  padding-bottom: 3.5rem;
+  margin-bottom: 11.5rem;
+}
+.fatherOfContainer2 .subscribe .container {
+  padding-top: 3.5rem;
+}
+.fatherOfContainer2 .subscribe .container .subscribeText {
+  color: #F8E4BE;
+  font-size: 1.25rem;
+}
+.fatherOfContainer2 .subscribe .container .subscribeForm .subscribeIcon {
+  left: 20rem;
+  top: 1.125rem;
+}
+.fatherOfContainer2 .subscribe .container .subscribeForm .input {
+  width: 33.75rem;
+  display: block;
+  margin: 3.5rem auto;
+}
+.fatherOfContainer2 .subscribe .container .subscribeForm .btn {
+  display: block;
+  margin: auto;
+}
+.fatherOfContainer2 .footer {
+  background: rgba(173, 113, 74, 0.35);
+}
+.fatherOfContainer2 .footer .mediaIcon {
+  top: -1.75rem;
+  right: 5.5rem;
+}
+.fatherOfContainer2 .footer .container .footerImg {
+  left: 0;
+  top: -3rem;
+}
+.fatherOfContainer2 .footer .container .footerFlex {
+  margin-left: 18rem;
+}
+.fatherOfContainer2 .footer .container .footerFlex .footerFlexClm {
+  height: 100%;
+}
+.fatherOfContainer2 .footer .container .footerFlex .footerFlexClm .text {
+  color: #FFF8E8;
+  font-size: 1rem;
+  margin-bottom: 1.75rem;
+}
+.fatherOfContainer2 .footer .container .footerFlex .footerFlexClm .footerHeading {
+  font-size: 1.25rem;
+}
+.fatherOfContainer2 .footer .container .footerFlex .footerFlexClm .lastClm {
+  margin-bottom: 3.5rem;
+}
+.fatherOfContainer2 .footer .container .footerFlex .footerFlexClm .lastClm .footerIcon {
+  margin-right: 0.75rem;
+}
+.fatherOfContainer2 .footer .container .copyRight {
+  padding-bottom: 2.5rem;
+}
+.fatherOfContainer2 .footer .container .copyRight .text {
+  color: rgba(255, 243, 224, 0.65);
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=indexPractice1.css.map */

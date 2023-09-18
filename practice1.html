@@ -4,11 +4,12 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <script defer src="coffeeshop.js"></script>
+    <title>Coffee shop</title>
 </head>
-<link rel="stylesheet" href="css/indexPractice1.css">
-<link rel="stylesheet" href="css/generalPractice1.css">
-<link rel="stylesheet" href="css/responsiveView.css">
+<link rel="stylesheet" href="sass/indexPractice1.css">
+<link rel="stylesheet" href="sass/generalPractice1.css">
+<link rel="stylesheet" href="sass/responsiveView.css">
 
 <body>
 <div class="fatherOfContainer">
@@ -28,29 +29,32 @@
                 </div>
             </div>
             <div class="responsiveMenuOpen display-none">
-                <span class="close"></span>
-                <div class="menuItem active relative">Home</div>
-                <div class="menuItem">Menu</div>
-                <div class="menuItem">Services</div>
-                <div class="menuItem">Product</div>
-                <div class="menuItem">Blog</div>
-                <div class="menuItem">Contact</div>
+                <span class="closeIcon">&times;</span>
+                <a class="responsiveMenuItem relative">Home</a>
+                <a class="responsiveMenuItem">Menu</a>
+                <a class="responsiveMenuItem">Services</a>
+                <a class="responsiveMenuItem">Product</a>
+                <a class="responsiveMenuItem">Blog</a>
+                <a class="responsiveMenuItem">Contact</a>
             </div>
             <div class="headerRight flex justify-evenly alignItem-center">
-                <div class="menuItem active relative">Home</div>
-                <div class="menuItem">Menu</div>
-                <div class="menuItem">Services</div>
-                <div class="menuItem">Product</div>
-                <div class="menuItem">Blog</div>
-                <div class="menuItem">Contact</div>
+                <a class="menuItem relative">Home</a>
+                <a class="menuItem">Menu</a>
+                <a class="menuItem">Services</a>
+                <a class="menuItem">Product</a>
+                <a class="menuItem">Blog</a>
+                <a class="menuItem">Contact</a>
             </div>
         </div>
         <div class="elzaCoffee relative">
             <h1 class="heading h1">Elza Coffee</h1>
             <p class="text">Today's good mood is sponsored by coffee
                 search for your coffee now</p>
-            <button class="btn creamBtn">Shop now</button>
-            <button class="btn brownBtn">Catalog</button>
+            <div class="btns">
+                <button class="btn creamBtn">Shop now</button>
+                <button class="btn brownBtn">Catalog</button>
+
+            </div>
             <div class="iceCreamBox relative">
                 <img class="iceCreamImg absolute" src="public/assets/Cup1.png" alt="ice cream">
                 <h4 class="heading h4 absolute">But First Coffee</h4>
@@ -80,9 +84,10 @@
 </div>
 <div class="fatherOfContainer2">
     <div class="container">
-        <div class="ourStory relative">
-            <img class="womanImg absolute" src="public/assets/woman.png" alt="woman">
-            <h3 class="heading h3 absolute">Our Story</h3>
+        <h2 class="heading h2 text-center">Our Story</h2>
+        <div class="ourStory">
+            <img class="womanImg" src="public/assets/woman.png" alt="woman">
+
             <p class="text">Eliza is an online coffee store that offers the widest selection of
                 specialty coffees and teas from
                 around the world. From medium-dark roast single origin to flavored espresso beans, they offer a variety
@@ -91,49 +96,60 @@
                 and more. On top of all that, their baristas are highly trained professionals who know exactly how to
                 make the perfect cup for each customer. Whether it's for home or business use, Eliza has you covered -
                 all conveniently available at the click of a button!</p>
-            <a class="moreLink text" href="">More</a>
+            <a class="moreLink" href="">More</a>
+
         </div>
         <div class="dotSlider text-center ">
             <span class="dot "></span>
             <span class="dot mx-1"></span>
             <span class="dot "></span>
         </div>
+
         <div class="services">
             <h2 class="heading h2 text-center">Services</h2>
-            <div class="servicesFlex flex justify-between">
-                <div class="servicesFlexBox flex alignItem-center justify-center relative">
-                    <img src="public/assets/equipment.png" alt="coffee maker">
-                    <p class="text text-center absolute">Equipments</p>
+            <div class="servicesContainer">
+                <div class="serviceBox">
+                    <img class="serviceIcon" src="public/assets/equipment.png" alt="coffee maker">
+                    <p class="text text-center">Equipments</p>
                 </div>
-                <div class="servicesFlexBox flex alignItem-center justify-center relative">
-                    <img src="public/assets/type%20of%20coffee.png" alt=" cup of coffee">
-                    <p class="text text-center absolute">Type Of Coffee</p>
+                <div class="serviceBox">
+                    <img class="serviceIcon" src="public/assets/type%20of%20coffee.png" alt=" cup of coffee">
+                    <p class="text text-center">Type Of Coffee</p>
                 </div>
-                <div class="servicesFlexBox flex alignItem-center justify-center relative">
-                    <img src="public/assets/take%20away.png" alt="paper glass of coffee">
-                    <p class="text text-center absolute">Take A Way</p>
+                <div class="serviceBox">
+                    <img class="serviceIcon" src="public/assets/take%20away.png" alt="paper glass of coffee">
+                    <p class="text text-center">Take A Way</p>
                 </div>
-                <div class="servicesFlexBox flex alignItem-center justify-center relative">
-                    <img src="public/assets/beans%20variant.png" alt="coffee beans">
-                    <p class="text text-center absolute">Beans Variant</p>
+                <div class="serviceBox">
+                    <img class="serviceIcon" src="public/assets/beans%20variant.png" alt="coffee beans">
+                    <p class="text text-center">Beans Variant</p>
                 </div>
-                <div class="servicesFlexBox flex alignItem-center justify-center relative">
-                    <img src="public/assets/pastry.png" alt="croissant">
-                    <p class="text text-center absolute">Pastry</p>
+                <div class="serviceBox">
+                    <img class="serviceIcon" src="public/assets/pastry.png" alt="croissant">
+                    <p class="text text-center">Pastry</p>
                 </div>
             </div>
         </div>
-        <div class="offerBox relative">
-            <h3 class="heading h3 absolute">Offer</h3>
-            <p class="offerTitle">Up to <span class="offerTitle textOfSpan">50%</span> Off</p>
-            <p class="text">At our cafe, we take pride in providing our customers with the best coffee around. Our
-                carefully-selected
-                coffees come from some of the most renowned coffee growing regions in the world, ensuring that each cup
-                is unrivaled in flavor and freshness.</p>
-            <button class="btn creamBtn">Shop now</button>
-            <img class="offerImage absolute" src="public/assets/coffee%20packs.png" alt="packs of coffee">
+
+        <div class="offer">
+            <h2 class="heading h2 text-center">Offer</h2>
+            <div class="offerBox">
+                <div class="offerContent">
+                    <p class="offerTitle">Up to <span class="offerTitle textOfSpan">50%</span> Off</p>
+                    <p class="text">At our cafe, we take pride in providing our customers with the best coffee around.
+                        Our
+                        carefully-selected
+                        coffees come from some of the most renowned coffee growing regions in the world, ensuring that
+                        each
+                        cup
+                        is unrivaled in flavor and freshness.</p>
+                    <button class="btn creamBtn">Shop now</button>
+                </div>
+                <img class="offerImage" src="public/assets/coffee%20packs.png" alt="packs of coffee">
+            </div>
         </div>
     </div>
+
     <div class="reservationBox relative">
         <div class="container">
             <h3 class="heading h3 absolute">Reserve a Table</h3>
@@ -369,7 +385,8 @@
                         <p class="text customerName text-center">mark</p>
                         <p class="text customerName text-center">king</p>
                         <img class="starsImg" src="public/assets/icons/starsIcon.png" alt="stars grading">
-                        <p class="text customerComment text-center">I love spending my downtime in a cozy coffee shop, surrounded by
+                        <p class="text customerComment text-center">I love spending my downtime in a cozy coffee shop,
+                            surrounded by
                             the sweet aroma of freshly brewed drinks and pastries.</p>
                     </div>
                 </div>
@@ -383,7 +400,8 @@
                         <p class="text customerName text-center">Tyler</p>
                         <p class="text customerName text-center">Student</p>
                         <img class="starsImg" src="public/assets/icons/starsIcon.png" alt="stars grading">
-                        <p class="text customerComment text-center">I love spending my downtime in a cozy coffee shop, surrounded by
+                        <p class="text customerComment text-center">I love spending my downtime in a cozy coffee shop,
+                            surrounded by
                             the sweet aroma of freshly brewed drinks and pastries.</p>
                     </div>
                 </div>
@@ -397,7 +415,8 @@
                         <p class="text customerName text-center">Sara</p>
                         <p class="text customerName text-center">jackson</p>
                         <img class="starsImg" src="public/assets/icons/starsIcon.png" alt="stars grading">
-                        <p class="text customerComment text-center">I love spending my downtime in a cozy coffee shop, surrounded by
+                        <p class="text customerComment text-center">I love spending my downtime in a cozy coffee shop,
+                            surrounded by
                             the sweet aroma of freshly brewed drinks and pastries.</p>
                     </div>
                 </div>

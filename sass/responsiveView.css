@@ -1,0 +1,135 @@
+@media (max-width: 992px) {
+  .fatherOfContainer {
+    background: unset;
+    background-color: #221518;
+  }
+  .fatherOfContainer .container {
+    max-width: 90rem;
+  }
+  .fatherOfContainer .container .header .headerRight {
+    display: none;
+  }
+  .fatherOfContainer .container .header .responsiveMenu {
+    display: block;
+  }
+  .fatherOfContainer .container .elzaCoffee .h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+  .fatherOfContainer .container .elzaCoffee .text {
+    font-size: 1.4rem;
+    width: auto;
+    text-align: center;
+  }
+  .fatherOfContainer .container .elzaCoffee .btns {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .fatherOfContainer .container .elzaCoffee .btns .creamBtn {
+    margin-right: 0;
+  }
+  .fatherOfContainer .container .iceCreamBox {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4rem;
+  }
+  .fatherOfContainer2 .container {
+    max-width: 90rem;
+  }
+  .fatherOfContainer2 .container .ourStory {
+    grid-template-columns: 1fr;
+  }
+  .fatherOfContainer2 .container .ourStory .womanImg {
+    display: none;
+  }
+  .fatherOfContainer2 .container .ourStory .text {
+    font-size: 1rem;
+  }
+  .fatherOfContainer2 .container .ourStory .moreLink {
+    grid-column: 1;
+  }
+  .fatherOfContainer2 .container .services .servicesContainer {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1.5rem;
+  }
+  .fatherOfContainer2 .container .offer .offerBox {
+    grid-template-columns: 1fr;
+  }
+  .fatherOfContainer2 .container .offer .offerBox .offerContent {
+    align-items: center;
+  }
+  .fatherOfContainer2 .container .offer .offerBox .offerContent .offerTitle {
+    font-size: 1.8rem;
+  }
+  .fatherOfContainer2 .container .offer .offerBox .offerContent .offerTitle .textOfSpan {
+    font-size: 2.5rem;
+  }
+  .fatherOfContainer2 .container .offer .offerBox .offerContent .text {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .fatherOfContainer .container {
+    max-width: 48rem;
+  }
+  .fatherOfContainer .container .elzaCoffee .text {
+    font-size: 1.1rem;
+  }
+  .fatherOfContainer .container .elzaCoffee .btns {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .fatherOfContainer .container .elzaCoffee .btns .brownBtn {
+    margin-top: 0;
+  }
+  .fatherOfContainer .container .iceCreamBox {
+    width: 21.5rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .fatherOfContainer .container .iceCreamBox .iceCreamImg {
+    width: 14rem;
+    height: 14rem;
+  }
+  .fatherOfContainer2 .container {
+    max-width: 48rem;
+  }
+  .fatherOfContainer2 .container .h2 {
+    font-size: 3rem;
+  }
+  .fatherOfContainer2 .container .ourStory {
+    padding: 1.5rem;
+  }
+  .fatherOfContainer2 .container .ourStory .womanImg {
+    display: none;
+  }
+  .fatherOfContainer2 .container .ourStory .text {
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+  }
+  .fatherOfContainer2 .container .ourStory .moreLink {
+    grid-column: 1;
+    font-size: 0.875rem;
+  }
+  .fatherOfContainer2 .container .services .servicesContainer {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1.5rem;
+  }
+  .fatherOfContainer2 .container .services .servicesContainer .serviceBox {
+    width: 9rem;
+  }
+  .fatherOfContainer2 .container .offer .offerBox .offerContent .text {
+    font-size: 0.875rem;
+  }
+  .fatherOfContainer2 .container .offer .offerBox .offerContent .btn {
+    font-size: 1.25rem;
+  }
+  .fatherOfContainer2 .container .offer .offerBox .offerImage {
+    width: 18rem;
+    height: 18rem;
+  }
+}
+
+/*# sourceMappingURL=responsiveView.css.map */
