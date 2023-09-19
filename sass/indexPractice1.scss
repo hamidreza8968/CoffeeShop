@@ -472,7 +472,7 @@ html {
       padding: 0;
 
       .popularFlex {
-        margin-top: 4rem;
+        padding: 0 1rem;
 
         .popularFlexItem {
           .priceBox {
@@ -481,7 +481,6 @@ html {
             .price {
               font-size: 1.5rem;
               font-weight: 600;
-              padding-left: 1.5rem;
             }
 
             .product {
@@ -494,7 +493,7 @@ html {
 
       .menuLinkBox {
         cursor: pointer;
-        margin-top: 5.875rem;
+        margin-top: 3rem;
 
         .menuLink {
           color: $creamFont;
@@ -504,7 +503,7 @@ html {
 
         .menuIcon {
           height: 1.25rem;
-          padding-left: 1.25rem;
+          padding: 0 1rem;
         }
       }
     }

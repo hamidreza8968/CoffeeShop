@@ -126,15 +126,35 @@
 
     .container {
       max-width: 90rem;
-      .recommended{
-        .recommendFlex{
-          RecommendFlexItem{
+    }
 
+    .popularMenu {
+      .container {
+        max-width: 90rem;
+        .popularFlex {
+          justify-content: space-around;
+          gap: 3rem;
+          .popularFlexItem:nth-child(2) {
+            display: none;
+          }
+          .popularFlexItem {
+            .priceBox {
+              .priceBoxImg {
+                width: 16rem;
+              }
+
+              .price {
+                font-size: 1.25rem;
+              }
+
+              .product {
+                font-size: 2rem;
+              }
+            }
           }
         }
       }
     }
-
   }
 }
 
@@ -271,18 +291,52 @@
         }
       }
     }
+
     .container {
       max-width: 48rem;
-      .recommended{
-        .recommendFlex{
+
+      .recommended {
+        .recommendFlex {
           width: 21.5rem;
-          .RecommendFlexItem{
-            .recommendImg , .recommendTextBox{
+
+          .RecommendFlexItem {
+            .recommendImg, .recommendTextBox {
               width: 21.5rem;
             }
-            .basketIcon{
+
+            .basketIcon {
               top: 16.5rem;
             }
+          }
+        }
+      }
+    }
+
+    .popularMenu {
+      .container {
+        max-width: 48rem;
+        .popularFlex {
+          gap: 1.5rem;
+          .popularFlexItem {
+            .priceBox {
+              .priceBoxImg {
+                width: 10.5rem;
+              }
+              .price {
+                font-size: 0.875rem;
+              }
+              .product {
+                font-size: 1.25rem;
+              }
+            }
+          }
+        }
+        .menuLinkBox {
+          .menuLink{
+            font-size: 1.5rem;
+          }
+          .menuIcon {
+            height: 1rem;
           }
         }
       }

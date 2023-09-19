@@ -372,7 +372,7 @@ html {
   padding: 0;
 }
 .fatherOfContainer2 .popularMenu .container .popularFlex {
-  margin-top: 4rem;
+  padding: 0 1rem;
 }
 .fatherOfContainer2 .popularMenu .container .popularFlex .popularFlexItem .priceBox {
   margin-top: 5.3rem;
@@ -380,7 +380,6 @@ html {
 .fatherOfContainer2 .popularMenu .container .popularFlex .popularFlexItem .priceBox .price {
   font-size: 1.5rem;
   font-weight: 600;
-  padding-left: 1.5rem;
 }
 .fatherOfContainer2 .popularMenu .container .popularFlex .popularFlexItem .priceBox .product {
   font-size: 2.5rem;
@@ -388,7 +387,7 @@ html {
 }
 .fatherOfContainer2 .popularMenu .container .menuLinkBox {
   cursor: pointer;
-  margin-top: 5.875rem;
+  margin-top: 3rem;
 }
 .fatherOfContainer2 .popularMenu .container .menuLinkBox .menuLink {
   color: #F8E4BE;
@@ -397,7 +396,7 @@ html {
 }
 .fatherOfContainer2 .popularMenu .container .menuLinkBox .menuIcon {
   height: 1.25rem;
-  padding-left: 1.25rem;
+  padding: 0 1rem;
 }
 .fatherOfContainer2 .ourBlog {
   background-color: rgba(173, 113, 74, 0.35);

@@ -84,6 +84,25 @@
   .fatherOfContainer2 .container {
     max-width: 90rem;
   }
+  .fatherOfContainer2 .popularMenu .container {
+    max-width: 90rem;
+  }
+  .fatherOfContainer2 .popularMenu .container .popularFlex {
+    justify-content: space-around;
+    gap: 3rem;
+  }
+  .fatherOfContainer2 .popularMenu .container .popularFlex .popularFlexItem:nth-child(2) {
+    display: none;
+  }
+  .fatherOfContainer2 .popularMenu .container .popularFlex .popularFlexItem .priceBox .priceBoxImg {
+    width: 16rem;
+  }
+  .fatherOfContainer2 .popularMenu .container .popularFlex .popularFlexItem .priceBox .price {
+    font-size: 1.25rem;
+  }
+  .fatherOfContainer2 .popularMenu .container .popularFlex .popularFlexItem .priceBox .product {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 576px) {
   .fatherOfContainer .container {
@@ -177,6 +196,27 @@
   }
   .fatherOfContainer2 .container .recommended .recommendFlex .RecommendFlexItem .basketIcon {
     top: 16.5rem;
+  }
+  .fatherOfContainer2 .popularMenu .container {
+    max-width: 48rem;
+  }
+  .fatherOfContainer2 .popularMenu .container .popularFlex {
+    gap: 1.5rem;
+  }
+  .fatherOfContainer2 .popularMenu .container .popularFlex .popularFlexItem .priceBox .priceBoxImg {
+    width: 10.5rem;
+  }
+  .fatherOfContainer2 .popularMenu .container .popularFlex .popularFlexItem .priceBox .price {
+    font-size: 0.875rem;
+  }
+  .fatherOfContainer2 .popularMenu .container .popularFlex .popularFlexItem .priceBox .product {
+    font-size: 1.25rem;
+  }
+  .fatherOfContainer2 .popularMenu .container .menuLinkBox .menuLink {
+    font-size: 1.5rem;
+  }
+  .fatherOfContainer2 .popularMenu .container .menuLinkBox .menuIcon {
+    height: 1rem;
   }
 }
 
