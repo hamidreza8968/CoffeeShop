@@ -2,64 +2,72 @@
 
 @media (max-width: $lg) {
 
-  .fatherOfContainer{
+  .fatherOfContainer {
     background: unset;
     background-color: $darkBrownBg;
 
     .container {
       max-width: 90rem;
 
-      .header{
+      .header {
         .headerRight {
           display: none;
         }
-        .responsiveMenu{
+
+        .responsiveMenu {
           display: block;
         }
       }
 
-      .elzaCoffee{
-        .h1{
+      .elzaCoffee {
+        .h1 {
           font-size: 4rem;
           text-align: center;
         }
+
         .text {
           font-size: 1.4rem;
           width: auto;
           text-align: center;
         }
-        .btns{
+
+        .btns {
           display: flex;
           justify-content: center;
           gap: 3rem;
 
-          .creamBtn{
+          .creamBtn {
             margin-right: 0;
           }
         }
       }
 
-      .iceCreamBox{
-        margin-right: auto;
-        margin-left: auto;
+      .iceCreamBox {
         margin-top: 4rem;
+        width: 100%;
+        border-radius: 0;
+
+        .h4 {
+          font-size: 1.5rem;
+          margin: 1.25rem 0;
+        }
       }
     }
   }
 
 
-  .fatherOfContainer2{
+  .fatherOfContainer2 {
     .container {
       max-width: 90rem;
 
-      .ourStory{
+      .ourStory {
         grid-template-columns: 1fr;
 
-        .womanImg{
+        .womanImg {
           display: none;
         }
 
-        .text{
+        .text {
           font-size: 1rem;
         }
 
@@ -71,7 +79,7 @@
 
       .services {
         .servicesContainer {
-          grid-template-columns: repeat(3 , 1fr);
+          grid-template-columns: repeat(3, 1fr);
           row-gap: 1.5rem;
         }
       }
@@ -81,7 +89,7 @@
         .offerBox {
           grid-template-columns: 1fr;
 
-          .offerContent{
+          .offerContent {
             align-items: center;
 
             .offerTitle {
@@ -91,6 +99,7 @@
                 font-size: 2.5rem;
               }
             }
+
             .text {
               font-size: 1rem;
             }
@@ -98,61 +107,90 @@
         }
       }
     }
+
+    .reservation {
+      .container {
+        max-width: 90rem;
+
+        .reserveFlex {
+          .reserveFlexLeft {
+            display: none;
+          }
+
+          .reserveFlexRight {
+            margin: auto;
+          }
+        }
+      }
+    }
+
+    .container {
+      max-width: 90rem;
+      .recommended{
+        .recommendFlex{
+          RecommendFlexItem{
+
+          }
+        }
+      }
+    }
+
   }
 }
 
 
-
-
 @media (max-width: $sm) {
-  .fatherOfContainer{
+  .fatherOfContainer {
 
     .container {
       max-width: 48rem;
 
-      .elzaCoffee{
+      .elzaCoffee {
         .text {
           font-size: 1.1rem;
         }
-        .btns{
+
+        .btns {
           flex-direction: column;
           align-items: center;
           gap: 2rem;
 
-          .brownBtn{
+          .brownBtn {
             margin-top: 0;
           }
         }
       }
 
-      .iceCreamBox{
-        width: 21.5rem;
-        margin-right: auto;
-        margin-left: auto;
+      .iceCreamBox {
 
-        .iceCreamImg{
-          width: 14rem;
-          height: 14rem;
+        .iceCreamImg {
+          width: 11rem;
+          height: 11rem;
+        }
+
+        .h4 {
+          font-size: 1.5rem;
         }
       }
     }
   }
 
-  .fatherOfContainer2{
+  .fatherOfContainer2 {
     .container {
       max-width: 48rem;
 
-      .h2{
+      .h2 {
         font-size: 3rem;
       }
 
-      .ourStory{
+      .ourStory {
         padding: 1.5rem;
-        .womanImg{
+
+        .womanImg {
           display: none;
         }
 
-        .text{
+        .text {
           font-size: 0.875rem;
           line-height: 1.75rem;
         }
@@ -166,7 +204,7 @@
 
       .services {
         .servicesContainer {
-          grid-template-columns: repeat(2 , 1fr);
+          grid-template-columns: repeat(2, 1fr);
           row-gap: 1.5rem;
 
           .serviceBox {
@@ -179,18 +217,72 @@
 
         .offerBox {
 
-          .offerContent{
+          .offerContent {
 
             .text {
               font-size: 0.875rem;
             }
+
             .btn {
               font-size: 1.25rem;
             }
           }
+
           .offerImage {
             width: 18rem;
             height: 18rem;
+          }
+        }
+      }
+    }
+
+    .reservation {
+      .h2 {
+        font-size: 3rem;
+      }
+
+      .container {
+        max-width: 48rem;
+
+        .reserveFlex {
+          .reserveFlexRight {
+            .reserveForm {
+              width: 21rem;
+
+              .input::placeholder, .select {
+                font-size: 1rem;
+              }
+
+              .reserveInputIcon, .guestIcon {
+                width: 1rem;
+                height: 1rem;
+              }
+
+              .guestIcon {
+                inset: 1.1rem 12rem;
+
+              }
+
+              .reserveInputIcon {
+                inset: 1.3rem 1.3rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    .container {
+      max-width: 48rem;
+      .recommended{
+        .recommendFlex{
+          width: 21.5rem;
+          .RecommendFlexItem{
+            .recommendImg , .recommendTextBox{
+              width: 21.5rem;
+            }
+            .basketIcon{
+              top: 16.5rem;
+            }
           }
         }
       }

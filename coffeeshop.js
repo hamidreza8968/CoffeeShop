@@ -10,6 +10,32 @@ closeButtonEl.addEventListener("click", function () {
 });
 
 
+
+let currentIndex = 0;
+let slides = document.querySelectorAll('.recommendFlexItem');
+
+function showSlide(index) {
+    slides.forEach(function(slide) {
+        slide.style.display = 'none';
+    });
+
+    slides[index].style.display = 'block';
+}
+
+function nextSlide() {
+    currentIndex = (currentIndex + 1) % slides.length;
+    showSlide(currentIndex);
+}
+
+function prevSlide() {
+    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+    showSlide(currentIndex);
+}
+
+showSlide(currentIndex);
+
+
+
 // let menuItemsEl = document.querySelectorAll(".menuItem");
 // menuItemsEl.forEach(function (menuItem) {
 //     menuItem.addEventListener("mouseover" , function () {

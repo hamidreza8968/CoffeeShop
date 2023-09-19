@@ -147,7 +147,6 @@ html {
 
     .iceCreamBox {
       width: 22.875rem;
-      height: 15.5rem;
       background: rgba(74, 39, 33, 0.85);
       backdrop-filter: blur(1.0625rem);
       box-sizing: border-box;
@@ -155,16 +154,13 @@ html {
       margin-top: 9.625rem;
 
       .iceCreamImg {
-        width: 16.5rem;
-        height: 16.5rem;
-        left: -1.625rem;
-        top: -0.625rem;
+        width: 12.75rem;
+        height: 12.75rem;
         filter: drop-shadow(1.05rem -046rem 0.73rem rgba(0, 0, 0, 0.25));
       }
 
       .h4 {
-        left: 11rem;
-        top: 5rem;
+        white-space: nowrap;
       }
 
       .iceCreamBtn {
@@ -172,18 +168,18 @@ html {
         border: 0.0625rem solid;
         border-radius: 3rem;
         font-family: leiko;
-        font-size: 0.8125rem;
+        font-size: 1rem;
         font-weight: 400;
         line-height: 1rem;
         background: rgba(74, 39, 33, 0.85);
         backdrop-filter: blur(1.0625rem);
         color: $cream;
         border-color: $cream;
-        left: 13.25rem;
-        top: 11.125rem;
         cursor: pointer;
 
         .bikeIcon {
+          height: 1.5rem;
+          width: 1.5rem;
           margin-left: 0.5rem;
         }
       }
@@ -303,7 +299,7 @@ html {
         grid-template-columns: 2fr 1fr;
         justify-items: center;
 
-        .offerContent{
+        .offerContent {
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -327,6 +323,7 @@ html {
             color: $whiteFont;
             line-height: 2.5rem;
           }
+
           .btn {
             cursor: pointer;
             width: 12rem;
@@ -336,76 +333,58 @@ html {
     }
   }
 
-  .reservationBox {
+  .reservation {
     margin: 6rem auto;
     background-color: $lightBrownBg;
     backdrop-filter: blur(0.125rem);
 
-    .h3 {
-      width: 22.3125rem;
-      top: -4.5rem;
-      right: 0;
-      left: 0;
-      margin: auto;
-    }
+    .container {
+      padding-top: 1rem;
 
-    .reserveFlex {
-      .reserveFlexLeft {
-      }
+      .reserveFlex {
 
-      .reserveFlexRight {
-        .reserveForm {
-          width: 33.75rem;
-          margin-bottom: 5.3125rem;
-        }
-
-        .reserveFlexItem {
-          width: 100%;
-
-          .dateIcon {
-            inset: 1rem 0.75rem;
+        .reserveFlexRight {
+          .reserveForm {
+            width: 33.75rem;
           }
 
-          .timeIcon {
-            inset: 1rem 0.75rem;
-          }
-
-          .guestIcon {
-            inset: 1rem 18rem;
-          }
-
-          .nameIcon {
-            inset: 1rem 0.75rem;
-          }
-
-          .phoneIcon {
-            inset: 1rem 0.75rem;
-          }
-
-          .mailIcon {
-            inset: 1rem 0.75rem;
-          }
-
-          .select {
+          .reserveFlexItem {
             width: 100%;
-            height: 3.375rem;
-            margin-bottom: 2.125rem;
-            margin-left: 2.374rem;
-            background-color: $whiteBg;
-            border: 0.0625rem solid #D6D6D6;
-            border-radius: 0.75rem;
-            color: #9D8781;
-            font-family: leiko;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 1.3125rem;
-            line-height: 1.75rem;
-            padding-left: 3rem;
-          }
 
-          .brownBtn {
-            height: 3.375rem;
-            margin-left: 1.25rem;
+            .reserveInputIcon , .guestIcon{
+              width: 1.25rem;
+              height: 1.25rem;
+            }
+
+            .reserveInputIcon {
+              inset: 1.07rem 1rem;
+            }
+
+            .guestIcon {
+              inset: 1.07rem 18.25rem;
+            }
+
+            .select {
+              width: 100%;
+              height: 3.375rem;
+              margin-bottom: 2.125rem;
+              margin-left: 2.374rem;
+              background-color: $whiteBg;
+              border: 0.0625rem solid #D6D6D6;
+              border-radius: 0.75rem;
+              color: #9D8781;
+              font-family: leiko;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 1.3125rem;
+              line-height: 1.75rem;
+              padding-left: 3rem;
+            }
+
+            .brownBtn {
+              height: 3.375rem;
+              margin-left: 1.25rem;
+            }
           }
         }
       }
@@ -417,9 +396,14 @@ html {
       margin-bottom: 10rem;
 
       .recommendFlex {
+        overflow: hidden;
+        width: 22.625rem;
+        margin: 0 auto;
+
         .RecommendFlexItem {
-          width: 22.625rem;
+          width: 100%;
           cursor: pointer;
+
 
           .attentionIcon {
             top: 1.375rem;
@@ -455,7 +439,7 @@ html {
 
       .arrowsSlider {
         cursor: pointer;
-        padding-top: 4rem;
+        padding-top: 3rem;
 
         .leftArrow {
           transform: rotate(180deg);

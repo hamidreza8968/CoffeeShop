@@ -30,9 +30,13 @@
     margin-right: 0;
   }
   .fatherOfContainer .container .iceCreamBox {
-    margin-right: auto;
-    margin-left: auto;
     margin-top: 4rem;
+    width: 100%;
+    border-radius: 0;
+  }
+  .fatherOfContainer .container .iceCreamBox .h4 {
+    font-size: 1.5rem;
+    margin: 1.25rem 0;
   }
   .fatherOfContainer2 .container {
     max-width: 90rem;
@@ -68,6 +72,18 @@
   .fatherOfContainer2 .container .offer .offerBox .offerContent .text {
     font-size: 1rem;
   }
+  .fatherOfContainer2 .reservation .container {
+    max-width: 90rem;
+  }
+  .fatherOfContainer2 .reservation .container .reserveFlex .reserveFlexLeft {
+    display: none;
+  }
+  .fatherOfContainer2 .reservation .container .reserveFlex .reserveFlexRight {
+    margin: auto;
+  }
+  .fatherOfContainer2 .container {
+    max-width: 90rem;
+  }
 }
 @media (max-width: 576px) {
   .fatherOfContainer .container {
@@ -84,14 +100,12 @@
   .fatherOfContainer .container .elzaCoffee .btns .brownBtn {
     margin-top: 0;
   }
-  .fatherOfContainer .container .iceCreamBox {
-    width: 21.5rem;
-    margin-right: auto;
-    margin-left: auto;
-  }
   .fatherOfContainer .container .iceCreamBox .iceCreamImg {
-    width: 14rem;
-    height: 14rem;
+    width: 11rem;
+    height: 11rem;
+  }
+  .fatherOfContainer .container .iceCreamBox .h4 {
+    font-size: 1.5rem;
   }
   .fatherOfContainer2 .container {
     max-width: 48rem;
@@ -129,6 +143,40 @@
   .fatherOfContainer2 .container .offer .offerBox .offerImage {
     width: 18rem;
     height: 18rem;
+  }
+  .fatherOfContainer2 .reservation .h2 {
+    font-size: 3rem;
+  }
+  .fatherOfContainer2 .reservation .container {
+    max-width: 48rem;
+  }
+  .fatherOfContainer2 .reservation .container .reserveFlex .reserveFlexRight .reserveForm {
+    width: 21rem;
+  }
+  .fatherOfContainer2 .reservation .container .reserveFlex .reserveFlexRight .reserveForm .input::placeholder, .fatherOfContainer2 .reservation .container .reserveFlex .reserveFlexRight .reserveForm .select {
+    font-size: 1rem;
+  }
+  .fatherOfContainer2 .reservation .container .reserveFlex .reserveFlexRight .reserveForm .reserveInputIcon, .fatherOfContainer2 .reservation .container .reserveFlex .reserveFlexRight .reserveForm .guestIcon {
+    width: 1rem;
+    height: 1rem;
+  }
+  .fatherOfContainer2 .reservation .container .reserveFlex .reserveFlexRight .reserveForm .guestIcon {
+    inset: 1.1rem 12rem;
+  }
+  .fatherOfContainer2 .reservation .container .reserveFlex .reserveFlexRight .reserveForm .reserveInputIcon {
+    inset: 1.3rem 1.3rem;
+  }
+  .fatherOfContainer2 .container {
+    max-width: 48rem;
+  }
+  .fatherOfContainer2 .container .recommended .recommendFlex {
+    width: 21.5rem;
+  }
+  .fatherOfContainer2 .container .recommended .recommendFlex .RecommendFlexItem .recommendImg, .fatherOfContainer2 .container .recommended .recommendFlex .RecommendFlexItem .recommendTextBox {
+    width: 21.5rem;
+  }
+  .fatherOfContainer2 .container .recommended .recommendFlex .RecommendFlexItem .basketIcon {
+    top: 16.5rem;
   }
 }
 

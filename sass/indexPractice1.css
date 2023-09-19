@@ -117,7 +117,6 @@ html {
 }
 .fatherOfContainer .elzaCoffee .iceCreamBox {
   width: 22.875rem;
-  height: 15.5rem;
   background: rgba(74, 39, 33, 0.85);
   backdrop-filter: blur(1.0625rem);
   box-sizing: border-box;
@@ -125,33 +124,30 @@ html {
   margin-top: 9.625rem;
 }
 .fatherOfContainer .elzaCoffee .iceCreamBox .iceCreamImg {
-  width: 16.5rem;
-  height: 16.5rem;
-  left: -1.625rem;
-  top: -0.625rem;
+  width: 12.75rem;
+  height: 12.75rem;
   filter: drop-shadow(1.05rem -46rem 0.73rem rgba(0, 0, 0, 0.25));
 }
 .fatherOfContainer .elzaCoffee .iceCreamBox .h4 {
-  left: 11rem;
-  top: 5rem;
+  white-space: nowrap;
 }
 .fatherOfContainer .elzaCoffee .iceCreamBox .iceCreamBtn {
   padding: 0.75rem 1.25rem;
   border: 0.0625rem solid;
   border-radius: 3rem;
   font-family: leiko;
-  font-size: 0.8125rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1rem;
   background: rgba(74, 39, 33, 0.85);
   backdrop-filter: blur(1.0625rem);
   color: #F7E1BC;
   border-color: #F7E1BC;
-  left: 13.25rem;
-  top: 11.125rem;
   cursor: pointer;
 }
 .fatherOfContainer .elzaCoffee .iceCreamBox .iceCreamBtn .bikeIcon {
+  height: 1.5rem;
+  width: 1.5rem;
   margin-left: 0.5rem;
 }
 
@@ -268,44 +264,31 @@ html {
   cursor: pointer;
   width: 12rem;
 }
-.fatherOfContainer2 .reservationBox {
+.fatherOfContainer2 .reservation {
   margin: 6rem auto;
   background-color: rgba(173, 113, 74, 0.35);
   backdrop-filter: blur(0.125rem);
 }
-.fatherOfContainer2 .reservationBox .h3 {
-  width: 22.3125rem;
-  top: -4.5rem;
-  right: 0;
-  left: 0;
-  margin: auto;
+.fatherOfContainer2 .reservation .container {
+  padding-top: 1rem;
 }
-.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveForm {
+.fatherOfContainer2 .reservation .container .reserveFlex .reserveFlexRight .reserveForm {
   width: 33.75rem;
-  margin-bottom: 5.3125rem;
 }
-.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem {
+.fatherOfContainer2 .reservation .container .reserveFlex .reserveFlexRight .reserveFlexItem {
   width: 100%;
 }
-.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .dateIcon {
-  inset: 1rem 0.75rem;
+.fatherOfContainer2 .reservation .container .reserveFlex .reserveFlexRight .reserveFlexItem .reserveInputIcon, .fatherOfContainer2 .reservation .container .reserveFlex .reserveFlexRight .reserveFlexItem .guestIcon {
+  width: 1.25rem;
+  height: 1.25rem;
 }
-.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .timeIcon {
-  inset: 1rem 0.75rem;
+.fatherOfContainer2 .reservation .container .reserveFlex .reserveFlexRight .reserveFlexItem .reserveInputIcon {
+  inset: 1.07rem 1rem;
 }
-.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .guestIcon {
-  inset: 1rem 18rem;
+.fatherOfContainer2 .reservation .container .reserveFlex .reserveFlexRight .reserveFlexItem .guestIcon {
+  inset: 1.07rem 18.25rem;
 }
-.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .nameIcon {
-  inset: 1rem 0.75rem;
-}
-.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .phoneIcon {
-  inset: 1rem 0.75rem;
-}
-.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .mailIcon {
-  inset: 1rem 0.75rem;
-}
-.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .select {
+.fatherOfContainer2 .reservation .container .reserveFlex .reserveFlexRight .reserveFlexItem .select {
   width: 100%;
   height: 3.375rem;
   margin-bottom: 2.125rem;
@@ -321,15 +304,20 @@ html {
   line-height: 1.75rem;
   padding-left: 3rem;
 }
-.fatherOfContainer2 .reservationBox .reserveFlex .reserveFlexRight .reserveFlexItem .brownBtn {
+.fatherOfContainer2 .reservation .container .reserveFlex .reserveFlexRight .reserveFlexItem .brownBtn {
   height: 3.375rem;
   margin-left: 1.25rem;
 }
 .fatherOfContainer2 .container .recommended {
   margin-bottom: 10rem;
 }
-.fatherOfContainer2 .container .recommended .recommendFlex .RecommendFlexItem {
+.fatherOfContainer2 .container .recommended .recommendFlex {
+  overflow: hidden;
   width: 22.625rem;
+  margin: 0 auto;
+}
+.fatherOfContainer2 .container .recommended .recommendFlex .RecommendFlexItem {
+  width: 100%;
   cursor: pointer;
 }
 .fatherOfContainer2 .container .recommended .recommendFlex .RecommendFlexItem .attentionIcon {
@@ -359,7 +347,7 @@ html {
 }
 .fatherOfContainer2 .container .recommended .arrowsSlider {
   cursor: pointer;
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
 .fatherOfContainer2 .container .recommended .arrowsSlider .leftArrow {
   transform: rotate(180deg);
