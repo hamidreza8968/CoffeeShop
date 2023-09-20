@@ -221,42 +221,19 @@ html {
         color: $whiteFont;
         line-height: 2.5rem;
         align-self: end;
-
-        display: -webkit-box;
-        max-width: 60rem;
-        -webkit-line-clamp: 5;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
       }
 
       .moreLink {
         color: $whiteFont;
         font-size: 1rem;
         line-height: 1.75rem;
-
-        grid-column: 2;
         justify-self: end;
       }
     }
 
-    .dotSlider {
-      margin: 2.5rem auto 9.375rem;
-
-      .dot {
-        width: 1rem;
-        height: 1rem;
-        border-radius: 50%;
-        background-color: $lightBrownBg;
-        display: inline-block;
-        cursor: ew-resize;
-
-        &:hover {
-          background-color: $cream;
-        }
-      }
-    }
 
     .services {
+      margin-top: 10rem;
       .servicesContainer {
         display: grid;
         grid-template-columns: repeat(5, 1fr);

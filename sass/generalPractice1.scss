@@ -138,3 +138,18 @@ p{
 ::placeholder {
   padding-left: 3rem;
 }
+
+
+
+.hideMore{
+  overflow: hidden;
+  display: -webkit-box;
+  max-width: 60rem;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 5;
+}
+
+.displayNone{
+  display: none;
+}

@@ -180,32 +180,15 @@ html {
   color: #FFF8E8;
   line-height: 2.5rem;
   align-self: end;
-  display: -webkit-box;
-  max-width: 60rem;
-  -webkit-line-clamp: 5;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 .fatherOfContainer2 .container .ourStory .moreLink {
   color: #FFF8E8;
   font-size: 1rem;
   line-height: 1.75rem;
-  grid-column: 2;
   justify-self: end;
 }
-.fatherOfContainer2 .container .dotSlider {
-  margin: 2.5rem auto 9.375rem;
-}
-.fatherOfContainer2 .container .dotSlider .dot {
-  width: 1rem;
-  height: 1rem;
-  border-radius: 50%;
-  background-color: rgba(173, 113, 74, 0.35);
-  display: inline-block;
-  cursor: ew-resize;
-}
-.fatherOfContainer2 .container .dotSlider .dot:hover {
-  background-color: #F7E1BC;
+.fatherOfContainer2 .container .services {
+  margin-top: 10rem;
 }
 .fatherOfContainer2 .container .services .servicesContainer {
   display: grid;

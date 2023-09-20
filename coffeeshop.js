@@ -11,6 +11,26 @@ closeButtonEl.addEventListener("click", function () {
 
 
 
+
+
+let isTextToggled = false;
+const moreLinkEl = document.querySelector(".ourStory .moreLink");
+moreLinkEl.addEventListener("click", function (e) {
+    e.preventDefault()
+    document.querySelector(".ourStory .text").classList.toggle("hideMore");
+    if (isTextToggled){
+       moreLinkEl.textContent = "More";
+        isTextToggled = false;
+    }else {
+        moreLinkEl.textContent = "Close";
+        isTextToggled = true;
+    }
+});
+
+
+
+
+//first carousel
 let currentIndex = 0;
 let slides = document.querySelectorAll('.recommendFlexItem');
 
@@ -37,7 +57,7 @@ showSlide(currentIndex);
 
 
 
-
+//second carousel
 let currentIndexCustomer = 0;
 let slidesCustomer = document.querySelectorAll('.customerFlexItem');
 
