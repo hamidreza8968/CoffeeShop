@@ -320,11 +320,11 @@
             </div>
         </div>
     </div>
-    <div class="ourBlog relative">
-        <h3 class="heading h3 absolute">Our Blog</h3>
+    <div class="ourBlog">
+        <h2 class="heading h2 text-center">Our Blog</h2>
         <div class="container">
-            <div class="ourBlogFlex flex justify-between">
-                <div class="blogFlexItem relative">
+            <div class="ourBlogItems">
+                <div class="blogItem">
                     <p class="text blogHeading">How To Make A Great Coffee</p>
                     <p class="text blogText">Making a cup of coffee doesn't have to be complicated. Start by gathering
                         your supplies: coffee grounds, water, and a French press, mug or other vessel. Next, measure out
@@ -337,9 +337,9 @@
                         3-4 minutes before consuming--but don't leave it too long as this method won't produce quite as
                         bold of a flavor as either filtering or pressing would!</p>
                     <img class="blogImg" src="public/assets/blogImg1.png" alt="three cup of coffee">
-                    <p class="text moreLink absolute">More</p>
+                    <p class="text moreLink">More</p>
                 </div>
-                <div class="blogFlexItem relative">
+                <div class="blogItem">
                     <p class="text blogHeading">Why Does Caffeine Make Us Stay Awake?</p>
                     <p class="text blogText">Caffeine works by blocking adenosine receptors in the brain, which
                         facilitates energy production and makes us feel more alert. Caffeine also increases adrenaline
@@ -349,9 +349,9 @@
                         it most. It's no wonder why so many people rely on caffeinated beverages - it really can make us
                         stay awake!</p>
                     <img class="blogImg" src="public/assets/blogImg2.png" alt="three cup of coffee">
-                    <p class="text moreLink absolute">More</p>
+                    <p class="text moreLink">More</p>
                 </div>
-                <div class="blogFlexItem relative">
+                <div class="blogItem">
                     <p class="text blogHeading">Different types of coffee Explained</p>
                     <p class="text blogText">Coffee is a staple in the lives of many and comes in a variety of forms.
                         Whether you prefer hot or iced, espresso-based or filter, you’re spoilt for choice. To help
@@ -367,7 +367,7 @@
                         dioxide for an even creamier texture and slightly sweet flavor profile. No matter what you
                         choose, chances are you won't be disappointed!</p>
                     <img class="blogImg" src="public/assets/blogImg3.png" alt="three cup of coffee">
-                    <p class="text moreLink absolute">More</p>
+                    <p class="text moreLink">More</p>
                 </div>
             </div>
         </div>
@@ -375,8 +375,8 @@
     <div class="container">
         <div class="customerReview relative">
             <h2 class="heading h2 absolute text-center">Customer Review</h2>
-            <img class="sliderIconLeft absolute" src="public/assets/icons/sliderLeft.png" alt="slider left">
-            <img class="sliderIconRight absolute" src="public/assets/icons/sliderLeft.png" alt="slider right">
+            <img class="sliderIconLeft absolute" src="public/assets/icons/sliderLeft.png" alt="slider left" role="button" onclick="prevSlideCustomer()">
+            <img class="sliderIconRight absolute" src="public/assets/icons/sliderLeft.png" alt="slider right" role="button" onclick="nextSlideCustomer()">
             <div class="customerFlex flex justify-between alignItem-end">
                 <div class="customerFlexItem">
                     <div class="withoutContent">
@@ -388,8 +388,7 @@
                         <p class="text customerName text-center">mark</p>
                         <p class="text customerName text-center">king</p>
                         <img class="starsImg" src="public/assets/icons/starsIcon.png" alt="stars grading">
-                        <p class="text customerComment text-center">I love spending my downtime in a cozy coffee shop,
-                            surrounded by
+                        <p class="text customerComment text-center">I love spending my downtime in a cozy coffee shop, surrounded by
                             the sweet aroma of freshly brewed drinks and pastries.</p>
                     </div>
                 </div>
@@ -403,9 +402,7 @@
                         <p class="text customerName text-center">Tyler</p>
                         <p class="text customerName text-center">Student</p>
                         <img class="starsImg" src="public/assets/icons/starsIcon.png" alt="stars grading">
-                        <p class="text customerComment text-center">I love spending my downtime in a cozy coffee shop,
-                            surrounded by
-                            the sweet aroma of freshly brewed drinks and pastries.</p>
+                        <p class="text customerComment text-center">It's ideal for gathering and parties. I always go there with my friends. I couldn't find somewhere else like this place  and  I  recommend it a lot.</p>
                     </div>
                 </div>
                 <div class="customerFlexItem">
@@ -418,9 +415,7 @@
                         <p class="text customerName text-center">Sara</p>
                         <p class="text customerName text-center">jackson</p>
                         <img class="starsImg" src="public/assets/icons/starsIcon.png" alt="stars grading">
-                        <p class="text customerComment text-center">I love spending my downtime in a cozy coffee shop,
-                            surrounded by
-                            the sweet aroma of freshly brewed drinks and pastries.</p>
+                        <p class="text customerComment text-center">their food and drinks are amazing. also anytime that I order in the website, they send me my order quickly and without any delay.</p>
                     </div>
                 </div>
             </div>
@@ -429,32 +424,32 @@
     <div class="subscribe">
         <div class="container">
             <p class="text subscribeText text-center">subscribe to our newsletter, discounts and promotions</p>
-            <div class="subscribeForm relative">
-                <img class="subscribeIcon absolute" src="public/assets/icons/subscribeIcon.png" alt="subscribe icon">
+            <div class="subscribeForm">
                 <input class="input" type="text" id="email" name="email" placeholder="Your Email Address">
                 <button class="btn brownBtn">subscribe</button>
             </div>
         </div>
     </div>
+
     <footer class="footer relative">
         <img class="absolute mediaIcon" src="public/assets/Socialmedia.png" alt="social media icons">
         <div class="container">
             <img class="footerImg absolute" src="public/assets/FooterImg.png" alt="coffee grinder">
             <div class="footerFlex flex justify-between">
                 <div class="footerFlexClm">
-                    <p class="text footerHeading">about</p>
+                    <p class="footerHeading">about</p>
                     <p class="text">our story</p>
                     <p class="text">FAQ</p>
                     <p class="footerFlexItem text">careers</p>
                 </div>
                 <div class="footerFlexClm">
-                    <p class="text footerHeading">customer recourses </p>
+                    <p class="footerHeading">customer recourses </p>
                     <p class="text">menu</p>
                     <p class="text">locations</p>
                     <p class="text">support</p>
                 </div>
                 <div class="footerFlexClm">
-                    <p class="text footerHeading">services</p>
+                    <p class="footerHeading">services</p>
                     <p class="text">payment options</p>
                     <p class="text">refunds & exchanges</p>
                     <p class="text">limitation of liability </p>

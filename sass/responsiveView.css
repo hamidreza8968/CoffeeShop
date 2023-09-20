@@ -103,6 +103,33 @@
   .fatherOfContainer2 .popularMenu .container .popularFlex .popularFlexItem .priceBox .product {
     font-size: 2rem;
   }
+  .fatherOfContainer2 .ourBlog .container {
+    max-width: 90rem;
+  }
+  .fatherOfContainer2 .ourBlog .container .ourBlogItems {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    justify-items: center;
+  }
+  .fatherOfContainer2 .ourBlog .container .ourBlogItems .blogItem {
+    width: 60%;
+  }
+  .fatherOfContainer2 .footer .container {
+    max-width: 90rem;
+  }
+  .fatherOfContainer2 .footer .container .footerFlex {
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 4rem;
+    column-gap: 2rem;
+  }
+  .fatherOfContainer2 .footer .container .footerFlex .footerFlexClm .footerHeading {
+    font-size: 1.5rem;
+  }
+  .fatherOfContainer2 .footer .container .footerImg {
+    display: none;
+  }
 }
 @media (max-width: 576px) {
   .fatherOfContainer .container {
@@ -217,6 +244,45 @@
   }
   .fatherOfContainer2 .popularMenu .container .menuLinkBox .menuIcon {
     height: 1rem;
+  }
+  .fatherOfContainer2 .ourBlog .container {
+    max-width: 48rem;
+  }
+  .fatherOfContainer2 .ourBlog .container .ourBlogItems .blogItem {
+    width: 75%;
+  }
+  .fatherOfContainer2 .container {
+    max-width: 48rem;
+  }
+  .fatherOfContainer2 .container .customerReview .sliderIconLeft {
+    left: 0.25rem;
+  }
+  .fatherOfContainer2 .container .customerReview .sliderIconRight {
+    right: 0.25rem;
+  }
+  .fatherOfContainer2 .container .customerReview .customerFlex {
+    width: 15rem;
+  }
+  .fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withContent {
+    width: 15rem;
+  }
+  .fatherOfContainer2 .subscribe .container {
+    max-width: 48rem;
+  }
+  .fatherOfContainer2 .subscribe .container .subscribeForm .input {
+    width: 21rem;
+  }
+  .fatherOfContainer2 .footer .container {
+    max-width: 48rem;
+  }
+  .fatherOfContainer2 .footer .container .footerFlex {
+    grid-template-columns: 1fr 1fr;
+  }
+  .fatherOfContainer2 .footer .container .footerFlex .footerFlexClm .footerHeading {
+    font-size: 1.25rem;
+  }
+  .fatherOfContainer2 .footer .container .footerFlex .footerFlexClm .text {
+    font-size: 0.875rem;
   }
 }
 

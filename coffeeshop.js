@@ -36,6 +36,34 @@ showSlide(currentIndex);
 
 
 
+
+
+let currentIndexCustomer = 0;
+let slidesCustomer = document.querySelectorAll('.customerFlexItem');
+
+function showSlideCustomer(index) {
+    slidesCustomer.forEach(function(slide) {
+        slide.style.display = 'none';
+    });
+
+    slidesCustomer[index].style.display = 'block';
+}
+
+function nextSlideCustomer() {
+    currentIndexCustomer = (currentIndexCustomer + 1) % slidesCustomer.length;
+    showSlideCustomer(currentIndexCustomer);
+}
+
+function prevSlideCustomer() {
+    currentIndexCustomer = (currentIndexCustomer - 1 + slidesCustomer.length) % slidesCustomer.length;
+    showSlideCustomer(currentIndexCustomer);
+}
+
+// Show the initial slide
+showSlideCustomer(currentIndexCustomer);
+
+
+
 // let menuItemsEl = document.querySelectorAll(".menuItem");
 // menuItemsEl.forEach(function (menuItem) {
 //     menuItem.addEventListener("mouseover" , function () {
