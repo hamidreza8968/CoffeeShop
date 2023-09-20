@@ -4,9 +4,11 @@ responsiveMenuEl.addEventListener("click", function () {
 });
 
 
-const closeButtonEl = document.querySelector(".closeIcon");
-closeButtonEl.addEventListener("click", function () {
-    document.querySelector(".responsiveMenuOpen").classList.toggle("display-none");
+const closeButtonEl = document.querySelector("body");
+closeButtonEl.addEventListener("click", function (e) {
+    if (e.target !== document.querySelector(".responsiveMenu")){
+        document.querySelector(".responsiveMenuOpen").classList.add("display-none");
+    }
 });
 
 
