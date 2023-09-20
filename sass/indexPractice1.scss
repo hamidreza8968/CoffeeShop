@@ -83,7 +83,7 @@ html {
       position: absolute;
       right: 0;
       top: 0;
-      width: 180px;
+      width: 30%;
       background-color: $cream;
       color: $darkBrownBg;
       border-radius: 10px 0 10px 10px;
@@ -194,7 +194,7 @@ html {
   background: $darkBrownBg;
 
   .container {
-    padding-top: 7.5rem;
+    padding-top: 5rem;
 
 
     .ourStory {
@@ -556,6 +556,7 @@ html {
 
           .blogImg {
             height: 5rem;
+            width: 100%;
           }
 
           .moreLink {
@@ -610,7 +611,7 @@ html {
       .customerFlex {
         padding-top: 6.875rem;
         margin: 0 auto;
-        width: 342px;
+        width: 25rem;
         overflow: hidden;
 
         .customerFlexItem {
@@ -642,7 +643,7 @@ html {
 
           .withContent {
             background-color: $brown;
-            width: 21.375rem;
+            width: 25rem;
             border-radius: 2.25rem 2.25rem 0 0;
             position: relative;
             z-index: 1;
@@ -664,7 +665,7 @@ html {
             }
 
             .customerName {
-              font-size: 1rem;
+              font-size: 1.25rem;
               color: $creamFont;
               text-shadow: $textShadow;
             }
@@ -676,7 +677,7 @@ html {
             }
 
             .customerComment {
-              font-size: 0.75rem;
+              font-size: 1rem;
               color: $creamFont;
               text-shadow: $textShadow;
               padding: 0 2rem 2rem;

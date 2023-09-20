@@ -266,6 +266,10 @@
   .fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withContent {
     width: 15rem;
   }
+  .fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withContent .customerComment {
+    font-size: 0.75rem;
+    padding: 0 1rem 1rem;
+  }
   .fatherOfContainer2 .subscribe .container {
     max-width: 48rem;
   }

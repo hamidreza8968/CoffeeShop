@@ -421,6 +421,10 @@
           .customerFlexItem {
             .withContent {
               width: 15rem;
+              .customerComment{
+                font-size: 0.75rem;
+                padding: 0 1rem 1rem;
+              }
             }
           }
         }
