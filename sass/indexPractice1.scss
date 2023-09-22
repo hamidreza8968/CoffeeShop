@@ -83,7 +83,7 @@ html {
       position: absolute;
       right: 0;
       top: 0;
-      width: 30%;
+      width: 50%;
       background-color: $cream;
       color: $darkBrownBg;
       border-radius: 10px 0 10px 10px;
@@ -93,14 +93,14 @@ html {
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      gap: 2rem;
+
 
       .responsiveMenuItem {
         font-weight: 400;
         font-size: 1.25rem;
         cursor: pointer;
         border-bottom: 1px solid $cream;
+        margin-bottom: 2rem;
 
         transition: all 0.3s;
       }
@@ -112,13 +112,11 @@ html {
 
 
       .closeIcon {
-        //position: absolute;
-        //right: 12px;
-        //top: 12px;
         font-size: 30px;
         cursor: pointer;
         align-self: end;
         margin-right: 8px;
+        height: 2rem;
       }
     }
   }

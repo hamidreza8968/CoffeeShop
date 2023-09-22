@@ -68,7 +68,7 @@ html {
   position: absolute;
   right: 0;
   top: 0;
-  width: 30%;
+  width: 50%;
   background-color: #F7E1BC;
   color: #221518;
   border-radius: 10px 0 10px 10px;
@@ -77,14 +77,13 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 2rem;
 }
 .fatherOfContainer .header .responsiveMenuOpen .responsiveMenuItem {
   font-weight: 400;
   font-size: 1.25rem;
   cursor: pointer;
   border-bottom: 1px solid #F7E1BC;
+  margin-bottom: 2rem;
   transition: all 0.3s;
 }
 .fatherOfContainer .header .responsiveMenuOpen .responsiveMenuItem:hover, .fatherOfContainer .header .responsiveMenuOpen .responsiveMenuItem:active {
@@ -96,6 +95,7 @@ html {
   cursor: pointer;
   align-self: end;
   margin-right: 8px;
+  height: 2rem;
 }
 .fatherOfContainer .elzaCoffee {
   margin-top: 3.5rem;
