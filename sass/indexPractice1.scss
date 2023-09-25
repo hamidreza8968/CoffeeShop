@@ -36,12 +36,10 @@ html {
         font-size: 1.25rem;
         cursor: pointer;
         padding: 0 10px;
-
-        transition: all 0.3s;
       }
 
       .menuItem:hover, .menuItem:active {
-        color: #54372B;
+        color: #221418;
       }
     }
 
@@ -155,9 +153,9 @@ html {
       margin-top: 9.625rem;
 
       .iceCreamImg {
-        width: 12.75rem;
+        width: 10.75rem;
         height: 12.75rem;
-        filter: drop-shadow(1.05rem -046rem 0.73rem rgba(0, 0, 0, 0.25));
+        object-fit: contain;
       }
 
       .h4 {
@@ -197,20 +195,19 @@ html {
 
     .ourStory {
       display: grid;
-      grid-template-columns: 1fr 2fr;
+      grid-template-columns: 1fr 4fr;
       padding: 2rem;
-
-      background-color: $lightBrownBg;
+      background-color: rgba(173, 113, 74, 0.35);
       backdrop-filter: blur(0.125rem);
       border-radius: 2.1875rem;
       margin: auto;
+      column-gap: 1.2rem;
 
       .womanImg {
-        width: 26rem;
-        height: 26rem;
+        width: 300px;
+        height: 100%;
+        object-fit: contain;
         filter: drop-shadow(0 9.5625rem 3.8125rem rgba(32, 19, 22, 0.03)) drop-shadow(0 5.375rem 3.25rem rgba(32, 19, 22, 0.1)) drop-shadow(0 2.375rem 2.375rem rgba(32, 19, 22, 0.17)) drop-shadow(0 0.625rem 1.3125rem rgba(32, 19, 22, 0.2)) drop-shadow(0 0 0 rgba(32, 19, 22, 0.2));
-
-        grid-row: 1/3;
       }
 
 
@@ -218,7 +215,7 @@ html {
         font-size: 1.125rem;
         color: $whiteFont;
         line-height: 2.5rem;
-        align-self: end;
+        align-self: center;
       }
 
       .moreLink {
@@ -226,12 +223,16 @@ html {
         font-size: 1rem;
         line-height: 1.75rem;
         justify-self: end;
+        cursor: pointer;
+        text-decoration: underline;
+        display: none;
       }
     }
 
 
     .services {
       margin-top: 10rem;
+
       .servicesContainer {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
@@ -275,7 +276,7 @@ html {
 
         display: grid;
         grid-template-columns: 2fr 1fr;
-        justify-items: center;
+        justify-items: end;
 
         .offerContent {
           display: flex;
@@ -329,7 +330,7 @@ html {
           .reserveFlexItem {
             width: 100%;
 
-            .reserveInputIcon , .guestIcon{
+            .reserveInputIcon, .guestIcon {
               width: 1.25rem;
               height: 1.25rem;
             }
@@ -489,7 +490,7 @@ html {
 
   .ourBlog {
     background-color: $lightBrownBg;
-    padding:2rem;
+    padding: 2rem;
     margin-bottom: 5rem;
 
     .h2 {
@@ -504,6 +505,7 @@ html {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 2rem;
+
         .blogItem {
           background-color: $creamBg;
           padding: 1rem;
@@ -532,6 +534,7 @@ html {
           .blogImg {
             height: 5rem;
             width: 100%;
+            object-fit: contain;
           }
 
           .moreLink {
@@ -539,6 +542,7 @@ html {
             font-size: 1rem;
             text-decoration: underline;
             align-self: end;
+            display: block;
           }
         }
       }
@@ -607,6 +611,7 @@ html {
             display: none;
 
             .customerImg {
+              height: 100px;
               border-radius: 50%;
               margin: auto;
               display: block;
@@ -733,6 +738,7 @@ html {
           }
         }
       }
+
       .copyRight {
         padding-bottom: 2.5rem;
 

@@ -203,6 +203,14 @@
 
 
 @media (max-width: $sm) {
+  .hideMore{
+    overflow: hidden;
+    display: -webkit-box;
+    max-width: 44rem;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+  }
   .fatherOfContainer {
 
     .container {
@@ -259,6 +267,7 @@
         }
 
         .moreLink {
+          display: block;
           grid-column: 1;
           font-size: 0.875rem;
 

@@ -29,10 +29,9 @@ html {
   font-size: 1.25rem;
   cursor: pointer;
   padding: 0 10px;
-  transition: all 0.3s;
 }
 .fatherOfContainer .header .headerRight .menuItem:hover, .fatherOfContainer .header .headerRight .menuItem:active {
-  color: #54372B;
+  color: #221418;
 }
 .fatherOfContainer .header .responsiveMenu {
   display: none;
@@ -127,9 +126,9 @@ html {
   margin-top: 9.625rem;
 }
 .fatherOfContainer .elzaCoffee .iceCreamBox .iceCreamImg {
-  width: 12.75rem;
+  width: 10.75rem;
   height: 12.75rem;
-  filter: drop-shadow(1.05rem -46rem 0.73rem rgba(0, 0, 0, 0.25));
+  object-fit: contain;
 }
 .fatherOfContainer .elzaCoffee .iceCreamBox .h4 {
   white-space: nowrap;
@@ -162,30 +161,34 @@ html {
 }
 .fatherOfContainer2 .container .ourStory {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 4fr;
   padding: 2rem;
   background-color: rgba(173, 113, 74, 0.35);
   backdrop-filter: blur(0.125rem);
   border-radius: 2.1875rem;
   margin: auto;
+  column-gap: 1.2rem;
 }
 .fatherOfContainer2 .container .ourStory .womanImg {
-  width: 26rem;
-  height: 26rem;
+  width: 300px;
+  height: 100%;
+  object-fit: contain;
   filter: drop-shadow(0 9.5625rem 3.8125rem rgba(32, 19, 22, 0.03)) drop-shadow(0 5.375rem 3.25rem rgba(32, 19, 22, 0.1)) drop-shadow(0 2.375rem 2.375rem rgba(32, 19, 22, 0.17)) drop-shadow(0 0.625rem 1.3125rem rgba(32, 19, 22, 0.2)) drop-shadow(0 0 0 rgba(32, 19, 22, 0.2));
-  grid-row: 1/3;
 }
 .fatherOfContainer2 .container .ourStory .text {
   font-size: 1.125rem;
   color: #FFF8E8;
   line-height: 2.5rem;
-  align-self: end;
+  align-self: center;
 }
 .fatherOfContainer2 .container .ourStory .moreLink {
   color: #FFF8E8;
   font-size: 1rem;
   line-height: 1.75rem;
   justify-self: end;
+  cursor: pointer;
+  text-decoration: underline;
+  display: none;
 }
 .fatherOfContainer2 .container .services {
   margin-top: 10rem;
@@ -223,7 +226,7 @@ html {
   border-radius: 2.25rem;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  justify-items: center;
+  justify-items: end;
 }
 .fatherOfContainer2 .container .offer .offerBox .offerContent {
   display: flex;
@@ -426,12 +429,14 @@ html {
 .fatherOfContainer2 .ourBlog .container .ourBlogItems .blogItem .blogImg {
   height: 5rem;
   width: 100%;
+  object-fit: contain;
 }
 .fatherOfContainer2 .ourBlog .container .ourBlogItems .blogItem .moreLink {
   color: #FFF8E8;
   font-size: 1rem;
   text-decoration: underline;
   align-self: end;
+  display: block;
 }
 .fatherOfContainer2 .container .customerReview {
   padding: 0 2.5rem;
@@ -489,6 +494,7 @@ html {
   display: none;
 }
 .fatherOfContainer2 .container .customerReview .customerFlex .customerFlexItem .withoutContent .customerImg {
+  height: 100px;
   border-radius: 50%;
   margin: auto;
   display: block;

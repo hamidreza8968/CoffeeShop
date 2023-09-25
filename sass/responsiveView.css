@@ -132,6 +132,14 @@
   }
 }
 @media (max-width: 576px) {
+  .hideMore {
+    overflow: hidden;
+    display: -webkit-box;
+    max-width: 44rem;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+  }
   .fatherOfContainer .container {
     max-width: 48rem;
   }
@@ -170,6 +178,7 @@
     line-height: 1.75rem;
   }
   .fatherOfContainer2 .container .ourStory .moreLink {
+    display: block;
     grid-column: 1;
     font-size: 0.875rem;
   }

@@ -21,7 +21,7 @@ p {
   border: 0.125rem solid;
   border-radius: 3rem;
   font-family: leiko;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
   text-transform: capitalize;
   text-align: center;
@@ -161,15 +161,6 @@ p {
 
 ::placeholder {
   padding-left: 3rem;
-}
-
-.hideMore {
-  overflow: hidden;
-  display: -webkit-box;
-  max-width: 60rem;
-  -webkit-box-orient: vertical;
-  text-overflow: ellipsis;
-  -webkit-line-clamp: 5;
 }
 
 .displayNone {
